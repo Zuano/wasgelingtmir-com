@@ -1,0 +1,55 @@
+---
+// Kategorie-Übersichtsseite / category page
+import { getCollection } from "astro:content";
+import BaseLayout from "~/layouts/BaseLayout.astro";
+import ArticleCard from "~/components/ArticleCard.astro";
+import CategoryBadge from "~/components/CategoryBadge.astro";
+import { CATEGORIES } from "~/consts";
+
+export async function getStaticPaths() {
+  const posts = await getCollection("blog", ({ data }) => !data.draft);
+  return Object.values(CATEGORIES).map((category) => {
+    const filtered = posts
+      .filter((p) => p.data.categorySlug === category.slug)
+      .sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
+    return {
+      params: { category: category.slug },
+      props: { category, posts: filtered },
+    };
+  });
+}
+
+const { category, posts } = Astro.props;
+---
+
+<BaseLayout
+  title={category.name}
+  description={category.description}
+>
+  <section class="mx-auto max-w-6xl px-4 py-12 md:px-6 md:py-16">
+    <header class="mb-10 max-w-3xl">
+      <div class="mb-4">
+        <CategoryBadge category={category} asLink={false} />
+      </div>
+      <h1 class="font-serif text-4xl font-bold tracking-tight text-stone-900 md:text-5xl dark:text-stone-50">
+        {category.name}
+      </h1>
+      <p class="mt-4 text-lg text-stone-600 dark:text-stone-400">
+        {category.description}
+      </p>
+      <p class="mt-3 text-sm text-stone-500 dark:text-stone-500">
+        {posts.length} {posts.length === 1 ? "Artikel" : "Artikel"}
+      </p>
+    </header>
+
+    {posts.length === 0 ? (
+      <p class="text-stone-600 dark:text-stone-400">
+        In dieser Kategorie gibt es aktuell keine Artikel.
+      </p>
+    ) : (
+      <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        {posts.map((post) => <ArticleCard post={post} />)}
+      </div>
+    )}
+  </section>
+</BaseLayout>

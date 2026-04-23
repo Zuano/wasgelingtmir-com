@@ -1,0 +1,124 @@
+---
+// Startseite / home page
+import { getCollection } from "astro:content";
+import BaseLayout from "~/layouts/BaseLayout.astro";
+import ArticleCard from "~/components/ArticleCard.astro";
+import CategoryBadge from "~/components/CategoryBadge.astro";
+import { SITE, CATEGORIES } from "~/consts";
+
+const allPosts = await getCollection("blog", ({ data }) => !data.draft);
+const sortedPosts = allPosts.sort(
+  (a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()
+);
+const featured = sortedPosts[0];
+const recent = sortedPosts.slice(1, 7);
+
+const postsByCategory = Object.values(CATEGORIES).map((cat) => ({
+  category: cat,
+  count: allPosts.filter((p) => p.data.categorySlug === cat.slug).length,
+}));
+---
+
+<BaseLayout>
+  <!-- Hero / Intro -->
+  <section
+    class="relative overflow-hidden border-b border-stone-200 bg-gradient-to-b from-brand-50/60 via-white to-white dark:border-stone-800 dark:from-brand-900/20 dark:via-stone-950 dark:to-stone-950"
+  >
+    <div class="mx-auto max-w-6xl px-4 pt-16 pb-20 md:px-6 md:pt-24 md:pb-28">
+      <div class="max-w-3xl">
+        <p class="mb-4 text-sm font-medium text-brand-700 dark:text-brand-300">
+          ✨ Zuano&apos;s Antworten finden
+        </p>
+        <h1
+          class="font-serif text-4xl font-bold tracking-tight text-stone-900 md:text-6xl dark:text-stone-50"
+        >
+          Was gelingt mir? <span class="text-brand-600 dark:text-brand-400">Antworten</span>
+          für den digitalen Alltag.
+        </h1>
+        <p class="mt-6 max-w-2xl text-lg text-stone-600 md:text-xl dark:text-stone-300">
+          {SITE.description}
+        </p>
+        <div class="mt-8 flex flex-wrap gap-3">
+          <a
+            href="/blog"
+            class="inline-flex items-center gap-2 rounded-lg bg-brand-600 px-5 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:bg-brand-700"
+          >
+            Alle Artikel lesen
+            <svg
+              viewBox="0 0 24 24"
+              class="h-4 w-4"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </a>
+          <a
+            href="/suche"
+            class="inline-flex items-center gap-2 rounded-lg border border-stone-300 bg-white px-5 py-2.5 text-sm font-semibold text-stone-800 shadow-sm transition hover:border-stone-400 hover:bg-stone-50 dark:border-stone-700 dark:bg-stone-900 dark:text-stone-100 dark:hover:border-stone-600 dark:hover:bg-stone-800"
+          >
+            Durchsuchen
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kategorien-Kacheln / category tiles -->
+  <section class="mx-auto max-w-6xl px-4 py-12 md:px-6 md:py-16">
+    <h2 class="mb-6 font-serif text-2xl font-semibold text-stone-900 md:text-3xl dark:text-stone-50">
+      Themen
+    </h2>
+    <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
+      {postsByCategory.map(({ category, count }) => (
+        <a
+          href={`/kategorie/${category.slug}`}
+          class="group flex flex-col gap-2 rounded-xl border border-stone-200 bg-white p-5 transition hover:border-brand-300 hover:shadow-md dark:border-stone-800 dark:bg-stone-900 dark:hover:border-brand-700"
+        >
+          <div class="flex items-center justify-between">
+            <CategoryBadge category={category} asLink={false} />
+            <span class="text-xs font-medium text-stone-500 dark:text-stone-500">
+              {count} {count === 1 ? "Artikel" : "Artikel"}
+            </span>
+          </div>
+          <p class="mt-2 text-sm text-stone-600 dark:text-stone-400">
+            {category.description}
+          </p>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <!-- Featured Post / Ausgewählter Artikel -->
+  {featured && (
+    <section class="mx-auto max-w-6xl px-4 py-8 md:px-6 md:py-12">
+      <h2 class="mb-6 font-serif text-2xl font-semibold text-stone-900 md:text-3xl dark:text-stone-50">
+        Zuletzt veröffentlicht
+      </h2>
+      <ArticleCard post={featured} featured />
+    </section>
+  )}
+
+  <!-- Recent Posts / Aktuelle Artikel -->
+  {recent.length > 0 && (
+    <section class="mx-auto max-w-6xl px-4 py-8 md:px-6 md:py-12">
+      <div class="mb-6 flex items-baseline justify-between">
+        <h2 class="font-serif text-2xl font-semibold text-stone-900 md:text-3xl dark:text-stone-50">
+          Weitere Artikel
+        </h2>
+        <a
+          href="/blog"
+          class="text-sm font-medium text-brand-700 hover:text-brand-900 dark:text-brand-300 dark:hover:text-brand-100"
+        >
+          Alle anzeigen →
+        </a>
+      </div>
+      <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        {recent.map((post) => <ArticleCard post={post} />)}
+      </div>
+    </section>
+  )}
+</BaseLayout>

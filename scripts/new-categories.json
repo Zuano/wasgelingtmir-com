@@ -1,0 +1,87 @@
+{
+  "_comment": "Manuelle Neu-Zuordnung aller Artikel zu sauberen Kategorien, Key = WordPress slug.",
+  "_categories": {
+    "apple-mac": {
+      "name": "Apple & Mac",
+      "slug": "apple-mac",
+      "description": "Tipps und Tricks rund um iPhone, iPad, Mac und Apple-Dienste.",
+      "icon": "apple"
+    },
+    "web-dienste": {
+      "name": "Web & Dienste",
+      "slug": "web-dienste",
+      "description": "Alles zu Online-Diensten, Shopping, Kommunikation und Web-Tools.",
+      "icon": "globe"
+    },
+    "gesundheit": {
+      "name": "Gesundheit",
+      "slug": "gesundheit",
+      "description": "Beiträge zu Schlaf, Fitness, Körper und Wohlbefinden.",
+      "icon": "heart"
+    },
+    "ernaehrung": {
+      "name": "Ernährung",
+      "slug": "ernaehrung",
+      "description": "Gedanken und Erkenntnisse rund um bewusste Ernährung.",
+      "icon": "apple-fruit"
+    },
+    "leben-gedanken": {
+      "name": "Leben & Gedanken",
+      "slug": "leben-gedanken",
+      "description": "Persönliche Reflexionen, Bücher und inspirierende Geschichten.",
+      "icon": "book"
+    }
+  },
+  "post_mapping": {
+    "facetime-anrufe-auf-dem-mac-transkribieren-trotz-offizieller-einschrankungen": "apple-mac",
+    "quitter-die-einfache-losung-gegen-nervige-inaktivitats-popups": "apple-mac",
+    "einfacher-weg-um-payback-punkte-bei-amazon-einkaufen-zu-sammeln-anleitung-mit-der-kurzbefehle-app-fur-ios": "web-dienste",
+    "die-magie-des-90-minuten-schlafzyklus-wie-ich-durch-bewusste-schlafrhythmen-mein-leben-verandert-habe": "gesundheit",
+    "mantram-hilfe-durch-die-kraft-des-wortes-von-eknath-easwaran": "leben-gedanken",
+    "achtung-kostenfalle-wie-unscheinbare-videoanruf-symbole-teuer-werden-konnen": "web-dienste",
+    "wie-man-den-personlichen-hotspot-auf-dem-iphone-fur-die-nutzung-auf-dem-macbook-einrichtet-wenn-alles-andere-fehlschlagt": "apple-mac",
+    "spart-euch-bei-der-telefonnummer-diese-null-in-klammer": "web-dienste",
+    "welt": "ernaehrung",
+    "wie-fuhlt-es-sich-an-zu-horen": "leben-gedanken",
+    "willhaben-betrug-mit-amazon-gutscheinen": "web-dienste",
+    "wie-lange-erhalt-mein-gebrauchtes-iphone-ipad-oder-mac-noch-softwareupdates": "apple-mac",
+    "macos-anrufe-nicht-automatisch-uber-skype": "apple-mac",
+    "apple_beats_erste_hilfe": "apple-mac",
+    "erledigte-erinnerungen-loeschen": "apple-mac",
+    "schliese-dauernd-die-falschen-fenster": "apple-mac",
+    "losung-fehlerbehebung-adobe-air": "apple-mac",
+    "so-loschen-sie-alle-erledigten-erinnerungen-auf-einmal-auf-iphone-und-ipad": "apple-mac",
+    "mitteilung-auf-dem-iphone-ueber-batterie-lebensdauer": "apple-mac",
+    "tanita-waage-in-apple-health-importieren": "gesundheit",
+    "fisch-enthaelt-kein-omega-3-dafuer-enthaelt-weidefleisch-welches": "ernaehrung",
+    "diese-verfluchten-whatsapp-haeckchen": "web-dienste",
+    "hammer-und-nagel-geschichte-von-paul-watzlawick": "leben-gedanken",
+    "welchen-anteil-geld-erhalten-kuenstler-durch-apple-music": "apple-mac",
+    "hallo-welt": "_skip_"
+  },
+  "slug_rewrites": {
+    "_comment": "Einige alte Slugs sind kaputt oder unschön – hier werden sie durch saubere ersetzt.",
+    "welt": "mein-weg-zu-bewusster-ernaehrung-empfehlung",
+    "apple_beats_erste_hilfe": "apple-beats-airpods-probleme-erste-hilfe",
+    "erledigte-erinnerungen-loeschen": "ios15-macos12-erledigte-erinnerungen-loeschen",
+    "schliese-dauernd-die-falschen-fenster": "macos-schliesse-dauernd-die-falschen-fenster",
+    "losung-fehlerbehebung-adobe-air": "birkenbihl-sprachen-adobe-air-loesung",
+    "wie-fuhlt-es-sich-an-zu-horen": "wie-fuehlt-es-sich-an-zu-hoeren"
+  },
+  "pages_to_keep": [
+    "eine-seite",
+    "impressum",
+    "miele-dampfgarer-gunstig-entkalken-65-gunstiger",
+    "paypal-passkey"
+  ],
+  "pages_to_skip": [
+    "computer-technik",
+    "ernaehrung",
+    "sport-und-gesndheit",
+    "sport"
+  ],
+  "page_slug_rewrites": {
+    "eine-seite": "ueber-mich",
+    "miele-dampfgarer-gunstig-entkalken-65-gunstiger": "miele-dampfgarer-guenstig-entkalken"
+  }
+}

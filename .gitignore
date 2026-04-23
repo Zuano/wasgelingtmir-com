@@ -1,0 +1,35 @@
+# Build / Build output
+dist/
+.astro/
+
+# Dependencies / Abhängigkeiten
+node_modules/
+.venv/
+
+# Environment / Umgebungsvariablen
+.env
+.env.production
+
+# macOS System files / Mac-Systemdateien
+.DS_Store
+
+# Editor / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# WordPress Export (large binaries, wird nicht versioniert)
+export-wordpress/
+
+# Lokale Claude-Einstellungen (enthalten ggf. persönliche Daten)
+.claude/settings.local.json
+
+# Python cache
+__pycache__/
+*.pyc

@@ -1,0 +1,138 @@
+@import "tailwindcss";
+
+/* Projekt-weite Design-Tokens / site-wide design tokens */
+@theme {
+  /* Farbpalette: warm und modern / warm modern palette */
+  --color-brand-50: #fef7ee;
+  --color-brand-100: #fdecd7;
+  --color-brand-200: #fad5ae;
+  --color-brand-300: #f6b77a;
+  --color-brand-400: #f18f44;
+  --color-brand-500: #ed721f;
+  --color-brand-600: #de5815;
+  --color-brand-700: #b84214;
+  --color-brand-800: #933518;
+  --color-brand-900: #762d17;
+
+  /* Schriftarten / typography */
+  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+}
+
+/* Dark-Mode über data-theme="dark" am <html> / dark mode toggle via data-theme */
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+/* Basis-Stile / base styles */
+html {
+  -webkit-text-size-adjust: 100%;
+  font-family: var(--font-sans);
+  color-scheme: light dark;
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-stone-900 antialiased;
+  @apply dark:bg-stone-950 dark:text-stone-100;
+  font-feature-settings: "kern", "liga", "calt";
+}
+
+/* Hochwertiges Typografie-System für Artikel / high-quality article typography */
+.prose-article {
+  @apply max-w-none leading-relaxed text-stone-800 dark:text-stone-200;
+  font-size: 1.0625rem;
+}
+
+.prose-article h1,
+.prose-article h2,
+.prose-article h3,
+.prose-article h4 {
+  font-family: var(--font-serif);
+  @apply font-semibold tracking-tight text-stone-900 dark:text-stone-50;
+}
+
+.prose-article h2 {
+  @apply mt-12 mb-4 text-2xl md:text-3xl;
+  scroll-margin-top: 5rem;
+}
+
+.prose-article h3 {
+  @apply mt-8 mb-3 text-xl md:text-2xl;
+  scroll-margin-top: 5rem;
+}
+
+.prose-article h4 {
+  @apply mt-6 mb-2 text-lg md:text-xl;
+}
+
+.prose-article p {
+  @apply my-4;
+}
+
+.prose-article a {
+  @apply text-brand-700 dark:text-brand-300 underline decoration-brand-400/40 underline-offset-2 transition;
+}
+
+.prose-article a:hover {
+  @apply decoration-brand-500;
+}
+
+.prose-article ul,
+.prose-article ol {
+  @apply my-4 pl-6;
+}
+
+.prose-article ul {
+  @apply list-disc;
+}
+
+.prose-article ol {
+  @apply list-decimal;
+}
+
+.prose-article li {
+  @apply my-1.5;
+}
+
+.prose-article blockquote {
+  @apply my-6 border-l-4 border-brand-400/50 bg-brand-50/40 py-2 pl-5 italic dark:border-brand-500/50 dark:bg-brand-900/20;
+}
+
+.prose-article code {
+  @apply rounded bg-stone-100 px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-stone-800;
+}
+
+.prose-article pre {
+  @apply my-6 overflow-x-auto rounded-lg bg-stone-900 p-4 text-stone-100 text-sm;
+}
+
+.prose-article pre code {
+  @apply bg-transparent p-0 text-inherit;
+}
+
+.prose-article img {
+  @apply my-6 rounded-lg shadow-md;
+  max-width: 100%;
+  height: auto;
+}
+
+.prose-article figure {
+  @apply my-6;
+}
+
+.prose-article figcaption {
+  @apply mt-2 text-center text-sm text-stone-600 dark:text-stone-400;
+}
+
+.prose-article hr {
+  @apply my-10 border-stone-200 dark:border-stone-800;
+}
+
+.prose-article strong {
+  @apply font-semibold text-stone-900 dark:text-stone-50;
+}
+
+/* Fokus-Stil für Barrierefreiheit / accessible focus states */
+:focus-visible {
+  @apply outline-2 outline-offset-2 outline-brand-500;
+}

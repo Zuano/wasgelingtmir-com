@@ -1,0 +1,78 @@
+---
+import type { CollectionEntry } from "astro:content";
+import FormattedDate from "~/components/FormattedDate.astro";
+import CategoryBadge from "~/components/CategoryBadge.astro";
+import { CATEGORIES } from "~/consts";
+
+interface Props {
+  post: CollectionEntry<"blog">;
+  featured?: boolean;
+}
+
+const { post, featured = false } = Astro.props;
+const { data, id } = post;
+const category = CATEGORIES[data.categorySlug];
+const href = `/blog/${data.slug ?? id.replace(/\.md$/, "")}`;
+---
+
+<article
+  class:list={[
+    "group relative flex flex-col overflow-hidden rounded-xl border border-stone-200 bg-white transition hover:border-brand-300 hover:shadow-lg dark:border-stone-800 dark:bg-stone-900 dark:hover:border-brand-700",
+    featured ? "md:flex-row" : "",
+  ]}
+>
+  {data.heroImage && (
+    <a
+      href={href}
+      class:list={[
+        "relative block shrink-0 overflow-hidden bg-stone-100 dark:bg-stone-800",
+        featured ? "md:w-1/2 md:shrink-0" : "aspect-[16/9]",
+      ]}
+      tabindex="-1"
+      aria-hidden="true"
+    >
+      <img
+        src={data.heroImage}
+        alt={data.heroImageAlt ?? ""}
+        class="h-full w-full object-cover transition duration-500 group-hover:scale-105"
+        loading="lazy"
+        decoding="async"
+      />
+    </a>
+  )}
+
+  <div class:list={["flex flex-1 flex-col p-5 md:p-6", featured ? "md:p-8" : ""]}>
+    <div class="mb-3 flex items-center gap-3">
+      <CategoryBadge category={category} asLink={false} />
+      <span class="text-xs text-stone-500 dark:text-stone-500">
+        <FormattedDate date={data.pubDate} />
+      </span>
+    </div>
+
+    <h2
+      class:list={[
+        "font-serif font-semibold tracking-tight text-stone-900 dark:text-stone-50",
+        featured ? "text-2xl md:text-3xl" : "text-lg md:text-xl",
+      ]}
+    >
+      <a href={href} class="before:absolute before:inset-0 before:z-10 before:content-['']">
+        {data.title}
+      </a>
+    </h2>
+
+    {data.description && (
+      <p
+        class:list={[
+          "mt-2 line-clamp-3 text-stone-600 dark:text-stone-400",
+          featured ? "md:text-lg" : "text-sm",
+        ]}
+      >
+        {data.description}
+      </p>
+    )}
+
+    <div class="mt-auto pt-4 text-sm font-medium text-brand-700 dark:text-brand-300">
+      Weiterlesen →
+    </div>
+  </div>
+</article>

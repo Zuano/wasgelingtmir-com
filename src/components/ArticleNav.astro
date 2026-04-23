@@ -1,0 +1,50 @@
+---
+import type { CollectionEntry } from "astro:content";
+
+interface Props {
+  prev?: CollectionEntry<"blog">;
+  next?: CollectionEntry<"blog">;
+}
+
+const { prev, next } = Astro.props;
+const hrefFor = (p: CollectionEntry<"blog">) =>
+  `/blog/${p.data.slug ?? p.id.replace(/\.md$/, "")}`;
+---
+
+{(prev || next) && (
+  <nav
+    aria-label="Weitere Artikel"
+    class="mt-16 grid gap-4 border-t border-stone-200 pt-8 sm:grid-cols-2 dark:border-stone-800"
+  >
+    {prev ? (
+      <a
+        href={hrefFor(prev)}
+        class="group rounded-lg border border-stone-200 p-4 transition hover:border-brand-300 hover:shadow-md dark:border-stone-800 dark:hover:border-brand-700"
+      >
+        <span class="text-xs font-medium text-stone-500 dark:text-stone-500">
+          ← Vorheriger Artikel
+        </span>
+        <span
+          class="mt-1 block font-serif font-semibold text-stone-900 group-hover:text-brand-700 dark:text-stone-50 dark:group-hover:text-brand-300"
+        >
+          {prev.data.title}
+        </span>
+      </a>
+    ) : <div />}
+    {next ? (
+      <a
+        href={hrefFor(next)}
+        class="group rounded-lg border border-stone-200 p-4 text-right transition hover:border-brand-300 hover:shadow-md dark:border-stone-800 dark:hover:border-brand-700"
+      >
+        <span class="text-xs font-medium text-stone-500 dark:text-stone-500">
+          Nächster Artikel →
+        </span>
+        <span
+          class="mt-1 block font-serif font-semibold text-stone-900 group-hover:text-brand-700 dark:text-stone-50 dark:group-hover:text-brand-300"
+        >
+          {next.data.title}
+        </span>
+      </a>
+    ) : <div />}
+  </nav>
+)}

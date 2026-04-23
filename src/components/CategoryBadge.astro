@@ -1,0 +1,39 @@
+---
+import type { CategoryInfo } from "~/consts";
+
+interface Props {
+  category: CategoryInfo;
+  asLink?: boolean;
+}
+
+const { category, asLink = true } = Astro.props;
+
+// Farb-Klassen pro Kategorie / color classes per category
+const colorMap: Record<string, string> = {
+  slate:
+    "bg-slate-100 text-slate-800 hover:bg-slate-200 dark:bg-slate-800 dark:text-slate-200 dark:hover:bg-slate-700",
+  blue:
+    "bg-blue-100 text-blue-800 hover:bg-blue-200 dark:bg-blue-900/60 dark:text-blue-200 dark:hover:bg-blue-900",
+  emerald:
+    "bg-emerald-100 text-emerald-800 hover:bg-emerald-200 dark:bg-emerald-900/60 dark:text-emerald-200 dark:hover:bg-emerald-900",
+  amber:
+    "bg-amber-100 text-amber-900 hover:bg-amber-200 dark:bg-amber-900/60 dark:text-amber-200 dark:hover:bg-amber-900",
+  rose:
+    "bg-rose-100 text-rose-800 hover:bg-rose-200 dark:bg-rose-900/60 dark:text-rose-200 dark:hover:bg-rose-900",
+};
+
+const classes = [
+  "inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-medium transition",
+  colorMap[category.color] ?? colorMap.slate,
+].join(" ");
+
+const Tag = asLink ? "a" : "span";
+const href = asLink ? `/kategorie/${category.slug}` : undefined;
+---
+
+<Tag class={classes} href={href}>
+  <svg viewBox="0 0 24 24" class="h-3.5 w-3.5" fill="currentColor" aria-hidden="true">
+    <path d={category.icon} />
+  </svg>
+  {category.name}
+</Tag>
