@@ -14,8 +14,25 @@ const { post, featured = false } = Astro.props;
 const { data, id } = post;
 const category = CATEGORIES[data.categorySlug];
 const href = link(`/blog/${data.slug ?? id.replace(/\.md$/, "")}`);
-// heroImage aus Frontmatter mit Base-Path prefixen, falls absoluter Pfad
 const heroSrc = data.heroImage ? link(data.heroImage) : undefined;
+
+// Gradient-Fallback pro Kategorie, falls kein Hero-Bild gesetzt ist.
+// Gradient fallback per category when there is no hero image.
+const gradientByCategory: Record<string, string> = {
+  slate:
+    "from-slate-100 to-slate-300 text-slate-700 dark:from-slate-800 dark:to-slate-950 dark:text-slate-300",
+  blue:
+    "from-sky-100 to-blue-300 text-blue-700 dark:from-blue-900 dark:to-slate-950 dark:text-blue-300",
+  emerald:
+    "from-emerald-100 to-teal-300 text-emerald-700 dark:from-emerald-900 dark:to-slate-950 dark:text-emerald-300",
+  amber:
+    "from-amber-100 to-orange-300 text-amber-800 dark:from-amber-900 dark:to-stone-950 dark:text-amber-300",
+  rose:
+    "from-rose-100 to-pink-300 text-rose-700 dark:from-rose-900 dark:to-stone-950 dark:text-rose-300",
+};
+
+const fallbackGradient =
+  gradientByCategory[category.color] ?? gradientByCategory.slate;
 ---
 
 <article
@@ -24,16 +41,16 @@ const heroSrc = data.heroImage ? link(data.heroImage) : undefined;
     featured ? "md:flex-row" : "",
   ]}
 >
-  {heroSrc && (
-    <a
-      href={href}
-      class:list={[
-        "relative block shrink-0 overflow-hidden bg-stone-100 dark:bg-stone-800",
-        featured ? "md:w-1/2 md:shrink-0" : "aspect-[16/9]",
-      ]}
-      tabindex="-1"
-      aria-hidden="true"
-    >
+  <a
+    href={href}
+    class:list={[
+      "relative block shrink-0 overflow-hidden",
+      featured ? "md:w-1/2 md:shrink-0" : "aspect-[16/9]",
+    ]}
+    tabindex="-1"
+    aria-hidden="true"
+  >
+    {heroSrc ? (
       <img
         src={heroSrc}
         alt={data.heroImageAlt ?? ""}
@@ -41,8 +58,24 @@ const heroSrc = data.heroImage ? link(data.heroImage) : undefined;
         loading="lazy"
         decoding="async"
       />
-    </a>
-  )}
+    ) : (
+      <div
+        class:list={[
+          "flex h-full w-full items-center justify-center bg-gradient-to-br p-8 transition duration-500 group-hover:scale-105",
+          fallbackGradient,
+        ]}
+      >
+        <svg
+          viewBox="0 0 24 24"
+          class="h-20 w-20 opacity-80 md:h-24 md:w-24"
+          fill="currentColor"
+          aria-hidden="true"
+        >
+          <path d={category.icon} />
+        </svg>
+      </div>
+    )}
+  </a>
 
   <div class:list={["flex flex-1 flex-col p-5 md:p-6", featured ? "md:p-8" : ""]}>
     <div class="mb-3 flex items-center gap-3">
