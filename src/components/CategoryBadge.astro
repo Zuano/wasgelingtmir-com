@@ -1,5 +1,6 @@
 ---
 import type { CategoryInfo } from "~/consts";
+import { link } from "~/utils/link";
 
 interface Props {
   category: CategoryInfo;
@@ -28,7 +29,7 @@ const classes = [
 ].join(" ");
 
 const Tag = asLink ? "a" : "span";
-const href = asLink ? `/kategorie/${category.slug}` : undefined;
+const href = asLink ? link(`/kategorie/${category.slug}`) : undefined;
 ---
 
 <Tag class={classes} href={href}>

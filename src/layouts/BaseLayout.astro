@@ -3,6 +3,7 @@
 import { SITE } from "~/consts";
 import Header from "~/components/Header.astro";
 import Footer from "~/components/Footer.astro";
+import { link } from "~/utils/link";
 import "~/styles/global.css";
 
 interface Props {
@@ -41,16 +42,13 @@ const socialImage = new URL(image, Astro.site).href;
 
     {noindex && <meta name="robots" content="noindex, nofollow" />}
 
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="alternate icon" href="/favicon.ico" />
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-
-    <link rel="sitemap" href="/sitemap-index.xml" />
+    <link rel="icon" type="image/svg+xml" href={link("/favicon.svg")} />
+    <link rel="sitemap" href={link("/sitemap-index.xml")} />
     <link
       rel="alternate"
       type="application/rss+xml"
       title={`${SITE.title} · RSS`}
-      href="/rss.xml"
+      href={link("/rss.xml")}
     />
 
     <!-- Open Graph / Facebook -->

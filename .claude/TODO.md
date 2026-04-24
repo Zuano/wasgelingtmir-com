@@ -44,3 +44,9 @@ Siehe auch: [`DOCUMENTATION.md`](./DOCUMENTATION.md) · [`plan.md`](./plan.md)
 - **2026-04-23** 95 Bilder zu WebP + responsive Varianten verarbeitet; **-70 % Größe** (17,10 MB → 5,12 MB).
 - **2026-04-23** Linkprüfung: 26 externe URLs geprüft, 14 Weiterleitungen automatisch angewendet, 4 tote Links mit sinnvollen Ersatz-URLs versehen.
 - **2026-04-23** Zentrale Doku (`README.md`, `DOCUMENTATION.md`) angelegt.
+- **2026-04-23** Astro 5 + Tailwind CSS v4 Projekt aufgesetzt mit Layouts, Komponenten und Seiten.
+- **2026-04-23** Pagefind-Suche integriert (2329 Wörter indiziert, komplett clientseitig, keine Server).
+- **2026-04-23** Erste Astro-Build erfolgreich: 37 Seiten in 1,56 s gebaut.
+- **2026-04-23** GitHub-Repository angelegt (https://github.com/Zuano/wasgelingtmir-com).
+- **2026-04-23** GitHub Actions Deployment-Workflow eingerichtet und gestartet.
+- **2026-04-23** DNS-Umzugsanleitung (`DNS-UMZUG.md`) erstellt – wartet auf Domain-Registrar-Infos.

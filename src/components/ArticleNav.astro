@@ -1,5 +1,6 @@
 ---
 import type { CollectionEntry } from "astro:content";
+import { link } from "~/utils/link";
 
 interface Props {
   prev?: CollectionEntry<"blog">;
@@ -8,7 +9,7 @@ interface Props {
 
 const { prev, next } = Astro.props;
 const hrefFor = (p: CollectionEntry<"blog">) =>
-  `/blog/${p.data.slug ?? p.id.replace(/\.md$/, "")}`;
+  link(`/blog/${p.data.slug ?? p.id.replace(/\.md$/, "")}`);
 ---
 
 {(prev || next) && (

@@ -1,6 +1,12 @@
 ---
 // Suchseite mit Pagefind / search page using Pagefind
 import BaseLayout from "~/layouts/BaseLayout.astro";
+import { link } from "~/utils/link";
+
+const pagefindBase = link("/pagefind");
+const pagefindCss = `${pagefindBase}/pagefind-ui.css`;
+const pagefindJs = `${pagefindBase}/pagefind-ui.js`;
+const pagefindBundle = `${pagefindBase}/`;
 ---
 
 <BaseLayout
@@ -21,19 +27,20 @@ import BaseLayout from "~/layouts/BaseLayout.astro";
 
     <noscript>
       <p class="rounded-lg border border-amber-300 bg-amber-50 p-4 text-amber-900">
-        Die Suche benötigt JavaScript. Alternativ findest du alle Artikel auf der <a href="/blog" class="underline">Übersichtsseite</a>.
+        Die Suche benötigt JavaScript. Alternativ findest du alle Artikel auf der <a href={link("/blog")} class="underline">Übersichtsseite</a>.
       </p>
     </noscript>
   </section>
 </BaseLayout>
 
-<link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
-<script is:inline src="/pagefind/pagefind-ui.js"></script>
-<script is:inline>
+<link href={pagefindCss} rel="stylesheet" />
+<script is:inline src={pagefindJs} define:vars={{ pagefindBundle }}></script>
+<script is:inline define:vars={{ pagefindBundle }}>
   window.addEventListener("DOMContentLoaded", () => {
     // @ts-expect-error Pagefind wird erst zur Build-Zeit erzeugt / built at compile time
     new PagefindUI({
       element: "#search",
+      bundlePath: pagefindBundle,
       showSubResults: true,
       showImages: false,
       translations: {

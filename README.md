@@ -2,9 +2,11 @@
 
 Neuaufbau des Blogs **"Zuano's Antworten finden"** (ehemals WordPress.com) als moderne statische Website mit Astro, gehostet auf GitHub Pages.
 
-- **Live-Domain:** https://wasgelingtmir.com (später, nach DNS-Umzug)
+- **GitHub-Repo:** https://github.com/Zuano/wasgelingtmir-com
+- **Test-URL (bis DNS umgestellt):** https://zuano.github.io/wasgelingtmir-com/
+- **Finale Domain:** https://wasgelingtmir.com (nach DNS-Umzug)
 - **GitHub-Account:** Zuano
-- **Technologie:** Astro + GitHub Pages + GitHub Actions
+- **Technologie:** Astro 5 + Tailwind CSS v4 + Pagefind (Suche) + GitHub Pages
 
 ## Projektstruktur
 

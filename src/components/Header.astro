@@ -1,6 +1,7 @@
 ---
 import { SITE, NAVIGATION } from "~/consts";
 import ThemeToggle from "~/components/ThemeToggle.astro";
+import { link, isActive } from "~/utils/link";
 
 const currentPath = Astro.url.pathname;
 ---
@@ -10,7 +11,7 @@ const currentPath = Astro.url.pathname;
 >
   <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 md:px-6">
     <a
-      href="/"
+      href={link("/")}
       class="group flex items-center gap-2 text-lg font-semibold tracking-tight text-stone-900 dark:text-stone-50"
     >
       <span
@@ -28,14 +29,11 @@ const currentPath = Astro.url.pathname;
     <nav aria-label="Hauptnavigation" class="hidden md:block">
       <ul class="flex items-center gap-1">
         {NAVIGATION.map((item) => {
-          const active =
-            item.href === "/"
-              ? currentPath === "/"
-              : currentPath.startsWith(item.href);
+          const active = isActive(currentPath, item.href);
           return (
             <li>
               <a
-                href={item.href}
+                href={link(item.href)}
                 class:list={[
                   "rounded-md px-3 py-1.5 text-sm font-medium transition",
                   active
@@ -53,7 +51,7 @@ const currentPath = Astro.url.pathname;
 
     <div class="flex items-center gap-2">
       <a
-        href="/suche"
+        href={link("/suche")}
         aria-label="Suche öffnen"
         class="rounded-md p-2 text-stone-700 transition hover:bg-stone-100 hover:text-stone-900 dark:text-stone-300 dark:hover:bg-stone-800 dark:hover:text-stone-50"
       >
@@ -87,14 +85,11 @@ const currentPath = Astro.url.pathname;
   >
     <ul class="mx-auto max-w-6xl space-y-1 px-4 py-3 md:px-6">
       {NAVIGATION.map((item) => {
-        const active =
-          item.href === "/"
-            ? currentPath === "/"
-            : currentPath.startsWith(item.href);
+        const active = isActive(currentPath, item.href);
         return (
           <li>
             <a
-              href={item.href}
+              href={link(item.href)}
               class:list={[
                 "block rounded-md px-3 py-2 text-sm font-medium transition",
                 active

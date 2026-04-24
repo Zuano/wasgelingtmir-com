@@ -34,6 +34,12 @@ Die Doku wächst mit dem Projekt. Wenn etwas neu hinzukommt, wird hier verlinkt.
 | [`link-check-results.json`](./link-check-results.json) | Rohdaten aus der Link-Prüfung |
 | [`CHANGELOG-articles.md`](./CHANGELOG-articles.md) | Jede einzelne Änderung an Artikeln (Link-Fixes, Rechtschreibung, Grammatik) |
 
+### Deployment & Domain
+
+| Datei | Zweck |
+|---|---|
+| [`DNS-UMZUG.md`](./DNS-UMZUG.md) | Schritt-für-Schritt-Anleitung zur DNS-Umstellung auf GitHub Pages |
+
 ### Design & Produktvision *(wird später erstellt)*
 
 | Datei | Zweck |

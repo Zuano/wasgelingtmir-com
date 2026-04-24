@@ -1,5 +1,6 @@
 ---
 import { SITE, CATEGORIES } from "~/consts";
+import { link } from "~/utils/link";
 const year = new Date().getFullYear();
 ---
 
@@ -24,7 +25,7 @@ const year = new Date().getFullYear();
         {Object.values(CATEGORIES).map((cat) => (
           <li>
             <a
-              href={`/kategorie/${cat.slug}`}
+              href={link(`/kategorie/${cat.slug}`)}
               class="text-sm text-stone-700 transition hover:text-brand-700 dark:text-stone-300 dark:hover:text-brand-300"
             >
               {cat.name}
@@ -41,7 +42,7 @@ const year = new Date().getFullYear();
       <ul class="mt-3 space-y-2">
         <li>
           <a
-            href="/blog"
+            href={link("/blog")}
             class="text-sm text-stone-700 transition hover:text-brand-700 dark:text-stone-300 dark:hover:text-brand-300"
           >
             Alle Artikel
@@ -49,7 +50,7 @@ const year = new Date().getFullYear();
         </li>
         <li>
           <a
-            href="/ueber-mich"
+            href={link("/ueber-mich")}
             class="text-sm text-stone-700 transition hover:text-brand-700 dark:text-stone-300 dark:hover:text-brand-300"
           >
             Über diese Seite
@@ -57,7 +58,7 @@ const year = new Date().getFullYear();
         </li>
         <li>
           <a
-            href="/impressum"
+            href={link("/impressum")}
             class="text-sm text-stone-700 transition hover:text-brand-700 dark:text-stone-300 dark:hover:text-brand-300"
           >
             Impressum
@@ -65,7 +66,7 @@ const year = new Date().getFullYear();
         </li>
         <li>
           <a
-            href="/rss.xml"
+            href={link("/rss.xml")}
             class="text-sm text-stone-700 transition hover:text-brand-700 dark:text-stone-300 dark:hover:text-brand-300"
           >
             RSS-Feed
