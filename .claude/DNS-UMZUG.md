@@ -76,3 +76,18 @@ Nach erfolgreicher Umstellung kannst du:
 - In GitHub Pages Settings zeigt es dir oft direkt Probleme an.
 - DNS-Check: https://dnschecker.org/#A/wasgelingtmir.com
 - HTTPS-Zertifikat braucht manchmal 1–2 Stunden nach DNS-Änderung.
+
+---
+
+## Für Claude: was am Code umgestellt werden muss
+
+Zur Zeit läuft die Seite auf dem GitHub-Pages-Unterordner `/wasgelingtmir-com/`.
+Sobald du weißt, dass der DNS-Umzug durch ist, mache ich Folgendes:
+
+1. **`public/CNAME` neu anlegen** mit Inhalt `wasgelingtmir.com`
+2. **GitHub Actions Workflow anpassen** (`.github/workflows/deploy.yml`):
+   - Env-Variable `CUSTOM_DOMAIN=true` setzen beim Build-Schritt
+3. **Rebuild + Push** – dann lädt die Seite unter der eigenen Domain ohne Unterordner, alle Links passen sich automatisch an (wegen der Link-Helper-Struktur).
+4. **In GitHub Pages Settings:** Custom Domain eintragen (`wasgelingtmir.com`) und "Enforce HTTPS" aktivieren.
+
+Kein Code-Umbau nötig – alles fertig vorbereitet.
