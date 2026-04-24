@@ -14,6 +14,8 @@ const { post, featured = false } = Astro.props;
 const { data, id } = post;
 const category = CATEGORIES[data.categorySlug];
 const href = link(`/blog/${data.slug ?? id.replace(/\.md$/, "")}`);
+// heroImage aus Frontmatter mit Base-Path prefixen, falls absoluter Pfad
+const heroSrc = data.heroImage ? link(data.heroImage) : undefined;
 ---
 
 <article
@@ -22,7 +24,7 @@ const href = link(`/blog/${data.slug ?? id.replace(/\.md$/, "")}`);
     featured ? "md:flex-row" : "",
   ]}
 >
-  {data.heroImage && (
+  {heroSrc && (
     <a
       href={href}
       class:list={[
@@ -33,7 +35,7 @@ const href = link(`/blog/${data.slug ?? id.replace(/\.md$/, "")}`);
       aria-hidden="true"
     >
       <img
-        src={data.heroImage}
+        src={heroSrc}
         alt={data.heroImageAlt ?? ""}
         class="h-full w-full object-cover transition duration-500 group-hover:scale-105"
         loading="lazy"

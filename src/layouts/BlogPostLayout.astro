@@ -6,6 +6,7 @@ import CategoryBadge from "~/components/CategoryBadge.astro";
 import FormattedDate from "~/components/FormattedDate.astro";
 import ArticleNav from "~/components/ArticleNav.astro";
 import { CATEGORIES } from "~/consts";
+import { link } from "~/utils/link";
 
 interface Props {
   post: CollectionEntry<"blog">;
@@ -16,12 +17,13 @@ interface Props {
 const { post, prev, next } = Astro.props;
 const { data } = post;
 const categoryInfo = CATEGORIES[data.categorySlug];
+const heroImage = data.heroImage ? link(data.heroImage) : undefined;
 ---
 
 <BaseLayout
   title={data.title}
   description={data.description}
-  image={data.heroImage}
+  image={heroImage}
   ogType="article"
 >
   <article class="mx-auto max-w-3xl px-4 py-10 md:px-6 md:py-16">
