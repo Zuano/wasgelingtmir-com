@@ -1,0 +1,156 @@
+{
+  "_style_suffix": "minimalist editorial illustration, warm muted color palette, subtle grain, soft natural lighting, centered composition, 16:9 aspect ratio, modern magazine cover style, no text, no typography, no logos",
+  "_size": "1792x1024",
+  "_format": "webp",
+  "_note": "Target filename = slug + .png (or .jpg/.webp). Import-Script matches filename against slug to deposit into public/images/blog/<slug>/hero.webp.",
+  "priority_critical": [
+    {
+      "slug": "quitter-die-einfache-losung-gegen-nervige-inaktivitats-popups",
+      "title": "Quitter – die einfache Lösung gegen nervige Inaktivitäts-Popups",
+      "category": "apple-mac",
+      "prompt": "A quiet Mac desktop scene with app windows gracefully fading away into soft mist, a calm atmosphere, no annoying popups or notifications, subtle hint of an hourglass or clock symbol in the background, dark gray and warm amber tones."
+    },
+    {
+      "slug": "wie-man-den-personlichen-hotspot-auf-dem-iphone-fur-die-nutzung-auf-dem-macbook-einrichtet-wenn-alles-andere-fehlschlagt",
+      "title": "Persönlicher Hotspot auf dem iPhone für das MacBook",
+      "category": "apple-mac",
+      "prompt": "An iPhone and a MacBook floating in space, connected by elegant glowing WiFi signal arcs, clean minimalist flat illustration, blue-to-teal gradient background, a subtle signal-strength pattern."
+    },
+    {
+      "slug": "wie-lange-erhalt-mein-gebrauchtes-iphone-ipad-oder-mac-noch-softwareupdates",
+      "title": "Wie lange erhält mein gebrauchtes Apple-Gerät noch Updates?",
+      "category": "apple-mac",
+      "prompt": "A stylized timeline showing Apple devices (iPhone, iPad, MacBook) along a horizontal line with subtle year markers fading from bright to faded, minimalist infographic style, warm gray and soft orange accents."
+    },
+    {
+      "slug": "spart-euch-bei-der-telefonnummer-diese-null-in-klammer",
+      "title": "Spart Euch bei der Telefonnummer diese Null in Klammer",
+      "category": "web-dienste",
+      "prompt": "An abstract typographic illustration of a phone number with international country code, a single zero in parentheses gently crossed out with a red brushstroke, minimalist editorial composition, warm paper-beige background."
+    },
+    {
+      "slug": "willhaben-betrug-mit-amazon-gutscheinen",
+      "title": "willhaben Betrug mit Amazon Gutscheinen",
+      "category": "web-dienste",
+      "prompt": "A stylized gift card with subtle warning aura and a lurking shadowy figure behind it, caution atmosphere, muted red and dark brown palette, modern editorial illustration, no text."
+    },
+    {
+      "slug": "wie-fuehlt-es-sich-an-zu-hoeren",
+      "title": "Wie fühlt es sich an, zu hören: 'Den kenn ich schon'",
+      "category": "leben-gedanken",
+      "prompt": "Two abstract speech bubbles facing each other, one glowing with enthusiasm and one flat and cold, a small heart fading between them, soft muted rose and lavender palette, minimalist editorial illustration."
+    }
+  ],
+  "priority_recommended": [
+    {
+      "slug": "facetime-anrufe-auf-dem-mac-transkribieren-trotz-offizieller-einschrankungen",
+      "title": "FaceTime-Anrufe auf dem Mac transkribieren",
+      "category": "apple-mac",
+      "prompt": "A Mac laptop showing a FaceTime video call window with subtle speech waves transforming into flowing text transcript beside it, clean flat illustration, soft blue and silver gradient, minimalist."
+    },
+    {
+      "slug": "einfacher-weg-um-payback-punkte-bei-amazon-einkaufen-zu-sammeln-anleitung-mit-der-kurzbefehle-app-fur-ios",
+      "title": "Payback-Punkte bei Amazon mit Kurzbefehle-App",
+      "category": "web-dienste",
+      "prompt": "An iPhone home screen with a custom shortcut icon featuring a shopping cart and a loyalty-points star, subtle Amazon-orange accent on a muted background, minimalist flat illustration."
+    },
+    {
+      "slug": "achtung-kostenfalle-wie-unscheinbare-videoanruf-symbole-teuer-werden-konnen",
+      "title": "Kostenfalle Videoanruf-Symbole",
+      "category": "web-dienste",
+      "prompt": "A smartphone icon with a video-call button subtly morphing into a warning exclamation mark, coins falling in the background, muted red and ochre palette, minimalist editorial illustration."
+    },
+    {
+      "slug": "macos-anrufe-nicht-automatisch-uber-skype",
+      "title": "MacOS Anrufe nicht automatisch über Skype",
+      "category": "apple-mac",
+      "prompt": "A Mac screen showing a clean phone-call settings panel with FaceTime and Skype icons separated by a gentle dividing line, FaceTime highlighted with warm accent, minimalist UI illustration style."
+    },
+    {
+      "slug": "apple-beats-airpods-probleme-erste-hilfe",
+      "title": "Apple Beats / AirPods Probleme - Erste Hilfe",
+      "category": "apple-mac",
+      "prompt": "Over-ear Beats headphones and a pair of AirPods arranged on a light wooden surface, soft diffused window light, minimalist product photography style, calm warm tones."
+    },
+    {
+      "slug": "ios15-macos12-erledigte-erinnerungen-loeschen",
+      "title": "iOS 15 und macOS 12: Erledigte Erinnerungen löschen",
+      "category": "apple-mac",
+      "prompt": "An iPhone screen showing a clean Reminders list with checkmarks being gently swept away by a subtle broom, minimalist flat illustration, soft pastel palette."
+    },
+    {
+      "slug": "macos-schliesse-dauernd-die-falschen-fenster",
+      "title": "Schließe dauernd die falschen Fenster",
+      "category": "apple-mac",
+      "prompt": "A cursor hovering confused over multiple nearly-identical Mac browser windows stacked like cards, one almost accidentally being closed, minimalist flat illustration, warm beige and muted blue palette."
+    },
+    {
+      "slug": "birkenbihl-sprachen-adobe-air-loesung",
+      "title": "Birkenbihl Sprachen Adobe Air Lösung",
+      "category": "apple-mac",
+      "prompt": "A retro-modern scene of a CD-ROM disk with language symbols floating elegantly from it, soft nostalgic gradient of ochre and teal, minimalist editorial illustration."
+    },
+    {
+      "slug": "so-loschen-sie-alle-erledigten-erinnerungen-auf-einmal-auf-iphone-und-ipad",
+      "title": "So löschen Sie alle erledigten Erinnerungen",
+      "category": "apple-mac",
+      "prompt": "An iPhone screen displaying a shortcut with a glowing trash icon and a clean list of completed reminders, calm pastel palette, minimalist flat illustration."
+    },
+    {
+      "slug": "mitteilung-auf-dem-iphone-ueber-batterie-lebensdauer",
+      "title": "Mitteilung auf dem iPhone über Batterie-Lebensdauer",
+      "category": "apple-mac",
+      "prompt": "An iPhone showing a battery health notification with a subtle heartbeat line behind it, muted green and soft blue palette, minimalist editorial illustration."
+    },
+    {
+      "slug": "welchen-anteil-geld-erhalten-kuenstler-durch-apple-music",
+      "title": "Welchen Anteil erhalten Künstler durch Apple Music?",
+      "category": "apple-mac",
+      "prompt": "A musical note elegantly transforming into coins that gently fall onto a stylized sound wave, minimalist flat illustration, warm red and soft gold accents."
+    },
+    {
+      "slug": "tanita-waage-in-apple-health-importieren",
+      "title": "Tanita Waage in Apple Health importieren",
+      "category": "gesundheit",
+      "prompt": "A modern bathroom scale with an SD card emerging from it, next to an Apple Health heart icon, minimalist flat illustration, soft green and warm gray palette."
+    }
+  ],
+  "priority_optional": [
+    {
+      "slug": "diese-verfluchten-whatsapp-haeckchen",
+      "title": "Diese verfluchten WhatsApp-Häckchen",
+      "category": "web-dienste",
+      "prompt": "Stylized chat bubbles with WhatsApp-style checkmarks – one gray, one blue – with a small anxious thought swirling between them, minimalist editorial illustration, soft green and muted gray palette."
+    },
+    {
+      "slug": "die-magie-des-90-minuten-schlafzyklus-wie-ich-durch-bewusste-schlafrhythmen-mein-leben-verandert-habe",
+      "title": "Die Magie des 90-Minuten-Schlafzyklus",
+      "category": "gesundheit",
+      "prompt": "A serene bedroom at night with a subtle sine wave flowing above the bed representing sleep cycles, HomePod on the bedside table, warm amber lamp light, minimalist illustration."
+    },
+    {
+      "slug": "fisch-enthaelt-kein-omega-3-dafuer-enthaelt-weidefleisch-welches",
+      "title": "Fisch enthält kein Omega 3 dafür Weidefleisch",
+      "category": "ernaehrung",
+      "prompt": "A stylized composition of a wild river fish and grass-fed beef on a wooden board, natural rustic photography style, soft window light, earthy greens and warm browns."
+    },
+    {
+      "slug": "mein-weg-zu-bewusster-ernaehrung-empfehlung",
+      "title": "Dieser Blog änderte meine Sicht auf Ernährung",
+      "category": "ernaehrung",
+      "prompt": "A farmers market stand with seasonal vegetables and herbs, warm natural sunlight, documentary photography style, earthy saturated tones, minimalist composition."
+    },
+    {
+      "slug": "mantram-hilfe-durch-die-kraft-des-wortes-von-eknath-easwaran",
+      "title": "Mantram - Hilfe durch die Kraft des Wortes",
+      "category": "leben-gedanken",
+      "prompt": "An abstract spiral of soft glowing letters or syllables rising from a calm hand, meditative atmosphere, warm amber and deep blue gradient, minimalist editorial illustration."
+    },
+    {
+      "slug": "hammer-und-nagel-geschichte-von-paul-watzlawick",
+      "title": "Hammer und Nagel - Geschichte von Paul Watzlawick",
+      "category": "leben-gedanken",
+      "prompt": "A hammer and nail arranged on a textured wooden surface with a subtle shadow suggesting a thoughtful conversation, minimalist still life, warm grayscale with a single soft amber accent."
+    }
+  ]
+}
