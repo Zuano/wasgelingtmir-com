@@ -20,7 +20,7 @@ tags:
   - "Musiker"
   - "Radio"
 slug: "welchen-anteil-geld-erhalten-kuenstler-durch-apple-music"
-heroImage: "/images/blog/welchen-anteil-geld-erhalten-kuenstler-durch-apple-music/apple-music.png"
+heroImage: "/images/blog/welchen-anteil-geld-erhalten-kuenstler-durch-apple-music/hero.webp"
 originalUrl: "https://wasgelingtmir.com/2015/08/27/welchen-anteil-geld-erhalten-kuenstler-durch-apple-music/"
 wordpressId: "6"
 ---

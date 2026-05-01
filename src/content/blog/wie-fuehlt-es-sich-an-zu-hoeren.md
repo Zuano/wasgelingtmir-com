@@ -7,6 +7,7 @@ categorySlug: "leben-gedanken"
 slug: "wie-fuehlt-es-sich-an-zu-hoeren"
 originalUrl: "https://wasgelingtmir.com/2023/04/10/wie-fuhlt-es-sich-an-zu-horen/"
 wordpressId: "1691"
+heroImage: "/images/blog/wie-fuehlt-es-sich-an-zu-hoeren/hero.webp"
 ---
 
 Spür in dich hinein: "Den Witz kenn ich schon." oder "Den Videoclip kenn ich schon." zu hören enttäuscht doch und macht eher miese Laune, oder?

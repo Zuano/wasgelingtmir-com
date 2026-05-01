@@ -5,7 +5,7 @@ pubDate: "2019-08-12"
 category: "Ernährung"
 categorySlug: "ernaehrung"
 slug: "fisch-enthaelt-kein-omega-3-dafuer-enthaelt-weidefleisch-welches"
-heroImage: "/images/blog/fisch-enthaelt-kein-omega-3-dafuer-enthaelt-weidefleisch-welches/fit_mit_fett_1.jpg"
+heroImage: "/images/blog/fisch-enthaelt-kein-omega-3-dafuer-enthaelt-weidefleisch-welches/hero.webp"
 originalUrl: "https://wasgelingtmir.com/2019/08/12/fisch-enthaelt-kein-omega-3-dafuer-enthaelt-weidefleisch-welches/"
 wordpressId: "78"
 ---

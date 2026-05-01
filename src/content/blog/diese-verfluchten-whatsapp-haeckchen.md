@@ -5,7 +5,7 @@ pubDate: "2019-07-10"
 category: "Web & Dienste"
 categorySlug: "web-dienste"
 slug: "diese-verfluchten-whatsapp-haeckchen"
-heroImage: "/images/blog/diese-verfluchten-whatsapp-haeckchen/whatsapp-haken-hc3a4ckchen-erklc3a4rung-kopie.jpg"
+heroImage: "/images/blog/diese-verfluchten-whatsapp-haeckchen/hero.webp"
 originalUrl: "https://wasgelingtmir.com/2019/07/10/diese-verfluchten-whatsapp-haeckchen/"
 wordpressId: "65"
 ---

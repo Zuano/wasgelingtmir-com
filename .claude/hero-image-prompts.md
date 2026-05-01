@@ -246,16 +246,7 @@ natural sunlight, documentary photography style, earthy saturated
 tones, minimalist composition.
 ```
 
-### 23. `mantram-hilfe-durch-die-kraft-des-wortes-von-eknath-easwaran`
-**Kategorie:** Leben & Gedanken *(hat Buchcover)*
-
-```
-An abstract spiral of soft glowing letters or syllables rising from a
-calm hand, meditative atmosphere, warm amber and deep blue gradient,
-minimalist editorial illustration.
-```
-
-### 24. `hammer-und-nagel-geschichte-von-paul-watzlawick`
+### 23. `hammer-und-nagel-geschichte-von-paul-watzlawick`
 **Kategorie:** Leben & Gedanken *(hat Foto)*
 
 ```

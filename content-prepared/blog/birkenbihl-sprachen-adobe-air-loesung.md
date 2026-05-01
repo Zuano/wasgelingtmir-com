@@ -5,7 +5,7 @@ pubDate: "2021-05-30"
 category: "Apple & Mac"
 categorySlug: "apple-mac"
 slug: "birkenbihl-sprachen-adobe-air-loesung"
-heroImage: "/images/blog/birkenbihl-sprachen-adobe-air-loesung/image.png"
+heroImage: "/images/blog/birkenbihl-sprachen-adobe-air-loesung/hero.webp"
 originalUrl: "https://wasgelingtmir.com/2021/05/30/losung-fehlerbehebung-adobe-air/"
 wordpressId: "264"
 ---

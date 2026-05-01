@@ -5,7 +5,7 @@ pubDate: "2021-12-08"
 category: "Apple & Mac"
 categorySlug: "apple-mac"
 slug: "macos-anrufe-nicht-automatisch-uber-skype"
-heroImage: "/images/blog/macos-anrufe-nicht-automatisch-uber-skype/image.png"
+heroImage: "/images/blog/macos-anrufe-nicht-automatisch-uber-skype/hero.webp"
 originalUrl: "https://wasgelingtmir.com/2021/12/08/macos-anrufe-nicht-automatisch-uber-skype/"
 wordpressId: "395"
 ---

@@ -10,7 +10,7 @@ tags:
   - "Erinnerungen"
   - "löschen"
 slug: "so-loschen-sie-alle-erledigten-erinnerungen-auf-einmal-auf-iphone-und-ipad"
-heroImage: "/images/blog/so-loschen-sie-alle-erledigten-erinnerungen-auf-einmal-auf-iphone-und-ipad/img_0308-1.png"
+heroImage: "/images/blog/so-loschen-sie-alle-erledigten-erinnerungen-auf-einmal-auf-iphone-und-ipad/hero.webp"
 originalUrl: "https://wasgelingtmir.com/2021/02/22/so-loschen-sie-alle-erledigten-erinnerungen-auf-einmal-auf-iphone-und-ipad/"
 wordpressId: "230"
 ---

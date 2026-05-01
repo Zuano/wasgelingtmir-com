@@ -5,7 +5,7 @@ pubDate: "2021-10-15"
 category: "Apple & Mac"
 categorySlug: "apple-mac"
 slug: "macos-schliesse-dauernd-die-falschen-fenster"
-heroImage: "/images/blog/macos-schliesse-dauernd-die-falschen-fenster/bildschirmfoto-2021-10-15-um-15.56.46.png"
+heroImage: "/images/blog/macos-schliesse-dauernd-die-falschen-fenster/hero.webp"
 originalUrl: "https://wasgelingtmir.com/2021/10/15/schliese-dauernd-die-falschen-fenster/"
 wordpressId: "319"
 ---

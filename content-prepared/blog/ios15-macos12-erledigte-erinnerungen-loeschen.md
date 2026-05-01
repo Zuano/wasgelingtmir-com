@@ -5,7 +5,7 @@ pubDate: "2021-11-01"
 category: "Apple & Mac"
 categorySlug: "apple-mac"
 slug: "ios15-macos12-erledigte-erinnerungen-loeschen"
-heroImage: "/images/blog/ios15-macos12-erledigte-erinnerungen-loeschen/ios-15-erledigte-erinnerungen-loeschen.png"
+heroImage: "/images/blog/ios15-macos12-erledigte-erinnerungen-loeschen/hero.webp"
 originalUrl: "https://wasgelingtmir.com/2021/11/01/erledigte-erinnerungen-loeschen/"
 wordpressId: "335"
 ---

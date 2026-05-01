@@ -18,6 +18,7 @@ tags:
 slug: "spart-euch-bei-der-telefonnummer-diese-null-in-klammer"
 originalUrl: "https://wasgelingtmir.com/2023/05/26/spart-euch-bei-der-telefonnummer-diese-null-in-klammer/"
 wordpressId: "1702"
+heroImage: "/images/blog/spart-euch-bei-der-telefonnummer-diese-null-in-klammer/hero.webp"
 ---
 
 Liebe Webseitenbetreiber und Webseitenersteller.

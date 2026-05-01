@@ -9,6 +9,7 @@ tags:
 slug: "wie-lange-erhalt-mein-gebrauchtes-iphone-ipad-oder-mac-noch-softwareupdates"
 originalUrl: "https://wasgelingtmir.com/2023/03/23/wie-lange-erhalt-mein-gebrauchtes-iphone-ipad-oder-mac-noch-softwareupdates/"
 wordpressId: "1676"
+heroImage: "/images/blog/wie-lange-erhalt-mein-gebrauchtes-iphone-ipad-oder-mac-noch-softwareupdates/hero.webp"
 ---
 
 Damit ich kalkulieren kann, wie lange ich Sicherheitsupdates für mein Apple-Gerät bekomme, bevor ich mir ein neues anschaffe, machte ich mich auf die Suche, wie lange es Apple voraussichtlich unterstützen wird.

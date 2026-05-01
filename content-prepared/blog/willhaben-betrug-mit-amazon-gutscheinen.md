@@ -13,6 +13,7 @@ tags:
 slug: "willhaben-betrug-mit-amazon-gutscheinen"
 originalUrl: "https://wasgelingtmir.com/2023/03/30/willhaben-betrug-mit-amazon-gutscheinen/"
 wordpressId: "1682"
+heroImage: "/images/blog/willhaben-betrug-mit-amazon-gutscheinen/hero.webp"
 ---
 
 Auf willhaben tummeln sich zurzeit neben wenigen seriösen Inseraten leider auch immer mehr gefälschte oder nicht vorhandene Amazon-Gutscheine.

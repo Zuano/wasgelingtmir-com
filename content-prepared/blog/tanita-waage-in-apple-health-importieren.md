@@ -5,7 +5,7 @@ pubDate: "2020-03-29"
 category: "Gesundheit"
 categorySlug: "gesundheit"
 slug: "tanita-waage-in-apple-health-importieren"
-heroImage: "/images/blog/tanita-waage-in-apple-health-importieren/iu.jpeg"
+heroImage: "/images/blog/tanita-waage-in-apple-health-importieren/hero.webp"
 originalUrl: "https://wasgelingtmir.com/2020/03/29/tanita-waage-in-apple-health-importieren/"
 wordpressId: "182"
 ---

@@ -7,6 +7,7 @@ categorySlug: "apple-mac"
 slug: "quitter-die-einfache-losung-gegen-nervige-inaktivitats-popups"
 originalUrl: "https://wasgelingtmir.com/2025/09/15/quitter-die-einfache-losung-gegen-nervige-inaktivitats-popups/"
 wordpressId: "2120"
+heroImage: "/images/blog/quitter-die-einfache-losung-gegen-nervige-inaktivitats-popups/hero.webp"
 ---
 
 Vor kurzem hatte ich ein richtig nerviges Problem mit einer Software auf meinem Mac: **EpsonScan2**.

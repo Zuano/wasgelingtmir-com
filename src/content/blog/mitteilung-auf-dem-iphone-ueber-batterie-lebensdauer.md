@@ -5,7 +5,7 @@ pubDate: "2020-04-04"
 category: "Apple & Mac"
 categorySlug: "apple-mac"
 slug: "mitteilung-auf-dem-iphone-ueber-batterie-lebensdauer"
-heroImage: "/images/blog/mitteilung-auf-dem-iphone-ueber-batterie-lebensdauer/batterie-lebendsdauer-iphone-mitteilung.jpeg"
+heroImage: "/images/blog/mitteilung-auf-dem-iphone-ueber-batterie-lebensdauer/hero.webp"
 originalUrl: "https://wasgelingtmir.com/2020/04/04/mitteilung-auf-dem-iphone-ueber-batterie-lebensdauer/"
 wordpressId: "204"
 ---

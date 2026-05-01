@@ -5,7 +5,7 @@ pubDate: "2024-05-08"
 category: "Web & Dienste"
 categorySlug: "web-dienste"
 slug: "achtung-kostenfalle-wie-unscheinbare-videoanruf-symbole-teuer-werden-konnen"
-heroImage: "/images/blog/achtung-kostenfalle-wie-unscheinbare-videoanruf-symbole-teuer-werden-konnen/bildschirmfoto-2024-05-08-um-13.26.24-1.png"
+heroImage: "/images/blog/achtung-kostenfalle-wie-unscheinbare-videoanruf-symbole-teuer-werden-konnen/hero.webp"
 originalUrl: "https://wasgelingtmir.com/2024/05/08/achtung-kostenfalle-wie-unscheinbare-videoanruf-symbole-teuer-werden-konnen/"
 wordpressId: "1736"
 ---

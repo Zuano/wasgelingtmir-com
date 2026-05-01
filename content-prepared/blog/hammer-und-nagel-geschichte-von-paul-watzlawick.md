@@ -5,7 +5,7 @@ pubDate: "2019-07-10"
 category: "Leben & Gedanken"
 categorySlug: "leben-gedanken"
 slug: "hammer-und-nagel-geschichte-von-paul-watzlawick"
-heroImage: "/images/blog/hammer-und-nagel-geschichte-von-paul-watzlawick/arbeit-basteln-bauen-162483.jpg"
+heroImage: "/images/blog/hammer-und-nagel-geschichte-von-paul-watzlawick/hero.webp"
 originalUrl: "https://wasgelingtmir.com/2019/07/10/hammer-und-nagel-geschichte-von-paul-watzlawick/"
 wordpressId: "72"
 ---

@@ -5,7 +5,7 @@ pubDate: "2023-05-06"
 category: "Ernährung"
 categorySlug: "ernaehrung"
 slug: "mein-weg-zu-bewusster-ernaehrung-empfehlung"
-heroImage: "/images/blog/mein-weg-zu-bewusster-ernaehrung-empfehlung/img_9562.jpeg"
+heroImage: "/images/blog/mein-weg-zu-bewusster-ernaehrung-empfehlung/hero.webp"
 originalUrl: "https://wasgelingtmir.com/2023/05/06/welt/"
 wordpressId: "1696"
 ---

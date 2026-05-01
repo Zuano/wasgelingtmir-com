@@ -5,7 +5,7 @@ pubDate: "2024-09-03"
 category: "Gesundheit"
 categorySlug: "gesundheit"
 slug: "die-magie-des-90-minuten-schlafzyklus-wie-ich-durch-bewusste-schlafrhythmen-mein-leben-verandert-habe"
-heroImage: "/images/blog/die-magie-des-90-minuten-schlafzyklus-wie-ich-durch-bewusste-schlafrhythmen-mein-leben-verandert-habe/dallc2b7e-2024-09-03-15.51.17-a-cozy-bedroom-scene-illustrating-the-concepts-from-the-blog-article.-the-room-is-softly-lit-with-warm-tones-featuring-an-apple-homepod-on-a-bedside-.webp"
+heroImage: "/images/blog/die-magie-des-90-minuten-schlafzyklus-wie-ich-durch-bewusste-schlafrhythmen-mein-leben-verandert-habe/hero.webp"
 originalUrl: "https://wasgelingtmir.com/2024/09/03/die-magie-des-90-minuten-schlafzyklus-wie-ich-durch-bewusste-schlafrhythmen-mein-leben-verandert-habe/"
 wordpressId: "1773"
 ---

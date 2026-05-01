@@ -15,7 +15,7 @@ tags:
   - "Whatsapp"
   - "Youtube"
 slug: "apple-beats-airpods-probleme-erste-hilfe"
-heroImage: "/images/blog/apple-beats-airpods-probleme-erste-hilfe/iphone-einstellungen.png"
+heroImage: "/images/blog/apple-beats-airpods-probleme-erste-hilfe/hero.webp"
 originalUrl: "https://wasgelingtmir.com/2021/11/22/apple_beats_erste_hilfe/"
 wordpressId: "366"
 ---

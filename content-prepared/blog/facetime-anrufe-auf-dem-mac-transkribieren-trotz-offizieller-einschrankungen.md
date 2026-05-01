@@ -5,7 +5,7 @@ pubDate: "2025-12-21"
 category: "Apple & Mac"
 categorySlug: "apple-mac"
 slug: "facetime-anrufe-auf-dem-mac-transkribieren-trotz-offizieller-einschrankungen"
-heroImage: "/images/blog/facetime-anrufe-auf-dem-mac-transkribieren-trotz-offizieller-einschrankungen/bildschirmfoto-2026-04-08-um-09.23.48.png"
+heroImage: "/images/blog/facetime-anrufe-auf-dem-mac-transkribieren-trotz-offizieller-einschrankungen/hero.webp"
 originalUrl: "https://wasgelingtmir.com/2025/12/21/facetime-anrufe-auf-dem-mac-transkribieren-trotz-offizieller-einschrankungen/"
 wordpressId: "2139"
 ---
