@@ -39,6 +39,7 @@ jobs:
         run: npm run build:astro
         env:
           NODE_ENV: production
+          CUSTOM_DOMAIN: "true"
 
       - name: Build search index (Pagefind)
         run: npm run build:search
