@@ -5,6 +5,12 @@
   "_note": "Target filename = slug + .png (or .jpg/.webp). Import-Script matches filename against slug to deposit into public/images/blog/<slug>/hero.webp.",
   "priority_critical": [
     {
+      "slug": "time-machine-zwei-macs-mac-mini-macbook-drahtlos-sichern",
+      "title": "Time Machine: zwei Macs drahtlos sichern",
+      "category": "apple-mac",
+      "prompt": "A cozy desk scene with a Mac mini connected to an external SSD, elegant glowing wireless waves traveling to a MacBook in the background, both devices subtly displaying a Time-Machine spiral backup symbol, soft warm desk light."
+    },
+    {
       "slug": "quitter-die-einfache-losung-gegen-nervige-inaktivitats-popups",
       "title": "Quitter – die einfache Lösung gegen nervige Inaktivitäts-Popups",
       "category": "apple-mac",
