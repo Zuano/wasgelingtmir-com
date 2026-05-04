@@ -12,6 +12,12 @@ wordpressId: "264"
 
 ## **Adobe Air wurde eingestellt, aber es gibt einen Nachfolger.**
 
+> 💡 **Update Mai 2026:** Diesen Artikel habe ich 2021 geschrieben, als die Birkenbihl-DVDs noch der einzige bequeme Weg waren. Inzwischen habe ich selbst eine App gebaut, die genau dieses Adobe-AIR-Theater überflüssig macht: **[LinguaFlow](https://linguaflow.app)** bringt die gehirngerechte De-Kodier-Methode auf iPhone, iPad und Android – ohne DVD, ohne Installer, ohne Rosetta-Workaround.
+>
+> Direkt loslegen: [App Store (iPhone/iPad)](https://apps.apple.com/us/app/linguaflow-decoder/id6744939323) · [Google Play (Android)](https://play.google.com/store/apps/details?id=com.linguaflow&hl=de)
+>
+> Wer trotzdem die alten DVDs zum Laufen bringen will: unten geht's mit der Anleitung weiter.
+
 [![](/images/blog/birkenbihl-sprachen-adobe-air-loesung/image.png)](https://wasgelingtmir.com/wp-content/uploads/2021/05/image.png)
 
 **Wichtiger Hinweis:**
@@ -96,3 +102,13 @@ Ganz klein wird ganz unten hier im Adobe Blog darauf hingewiesen:
 Hier nochmal der funktionierende Nachfolger: <https://airsdk.harman.com>
 
 Gutes Gelingen!
+
+---
+
+**P.S. – Falls dir der DVD-Weg zu mühsam ist:**
+
+Genau aus dem Frust mit dem Adobe-AIR-Chaos heraus habe ich **LinguaFlow** entwickelt – eine moderne App, die die Birkenbihl-Methode direkt aufs Smartphone bringt. Keine DVD, kein Installer, kein Rosetta. Einfach App laden, Sprache wählen, loslegen.
+
+- 📱 [LinguaFlow im App Store (iPhone & iPad)](https://apps.apple.com/us/app/linguaflow-decoder/id6744939323)
+- 🤖 [LinguaFlow bei Google Play (Android)](https://play.google.com/store/apps/details?id=com.linguaflow&hl=de)
+- 🌐 Mehr Infos: [linguaflow.app](https://linguaflow.app)
