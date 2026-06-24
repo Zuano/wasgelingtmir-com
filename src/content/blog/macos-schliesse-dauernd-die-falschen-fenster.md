@@ -28,15 +28,15 @@ Bei Euch ist plötzlich das Dunkle die aktivierte Seite. So ein Scheiß und unn�
 
 Vorher Nachher Vergleich
 
-[![](/images/blog/macos-schliesse-dauernd-die-falschen-fenster/bildschirmfoto-2021-10-15-um-15.56.46.png)](https://wasgelingtmir.com/wp-content/uploads/2021/10/bildschirmfoto-2021-10-15-um-15.56.46.png)
+[![](/images/blog/macos-schliesse-dauernd-die-falschen-fenster/bildschirmfoto-2021-10-15-um-15.56.46.png)](/images/blog/macos-schliesse-dauernd-die-falschen-fenster/bildschirmfoto-2021-10-15-um-15.56.46.png)
 
 Vorher: MacOS bis Catalina
 
-[![](/images/blog/macos-schliesse-dauernd-die-falschen-fenster/bildschirmfoto-2021-10-15-um-15.58.04.png)](https://wasgelingtmir.com/wp-content/uploads/2021/10/bildschirmfoto-2021-10-15-um-15.58.04.png)
+[![](/images/blog/macos-schliesse-dauernd-die-falschen-fenster/bildschirmfoto-2021-10-15-um-15.58.04.png)](/images/blog/macos-schliesse-dauernd-die-falschen-fenster/bildschirmfoto-2021-10-15-um-15.58.04.png)
 
 Nachher ab Big Sur 11.6
 
-[![](/images/blog/macos-schliesse-dauernd-die-falschen-fenster/ohne-titel-2.png)](https://wasgelingtmir.com/wp-content/uploads/2021/10/ohne-titel-2.png)
+[![](/images/blog/macos-schliesse-dauernd-die-falschen-fenster/ohne-titel-2.png)](/images/blog/macos-schliesse-dauernd-die-falschen-fenster/ohne-titel-2.png)
 
 Beide Male die aktive Seite angewählt
 

@@ -40,7 +40,7 @@ Mit der macOS-Software [**Loopback**](https://www.rogueamoeba.com/loopback/) von
 
 Loopback erlaubt es, **beliebige Audioquellen virtuell zusammenzuführen** und als **neues Audio-Gerät** bereitzustellen. Genau das braucht Spark.
 
-[![](/images/blog/facetime-anrufe-auf-dem-mac-transkribieren-trotz-offizieller-einschrankungen/bildschirmfoto-2026-04-08-um-09.23.48.png)](https://zuano82.wordpress.com/wp-content/uploads/2025/12/bildschirmfoto-2026-04-08-um-09.23.48.png)
+[![](/images/blog/facetime-anrufe-auf-dem-mac-transkribieren-trotz-offizieller-einschrankungen/bildschirmfoto-2026-04-08-um-09.23.48.png)](/images/blog/facetime-anrufe-auf-dem-mac-transkribieren-trotz-offizieller-einschrankungen/bildschirmfoto-2026-04-08-um-09.23.48.png)
 
 ---
 

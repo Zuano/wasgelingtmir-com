@@ -22,8 +22,8 @@ Ich habe lange gesucht, bis ich die Lösung dafür gefunden habe und die teile i
 - Klicke oben links in der Menüleiste auf FaceTime und dann auf Einstellungen ...
 - Ganz unten findest du die Auswahl "Standard für Anrufe" Hier kannst du auswählen, ob du FaceTime, Skype oder ein anderes Programm für Anrufe verwenden möchtest:
 
-[![](/images/blog/macos-anrufe-nicht-automatisch-uber-skype/image.png)](https://wasgelingtmir.com/wp-content/uploads/2021/12/image.png)
-[![](/images/blog/macos-anrufe-nicht-automatisch-uber-skype/image-1.png)](https://wasgelingtmir.com/wp-content/uploads/2021/12/image-1.png)
+[![](/images/blog/macos-anrufe-nicht-automatisch-uber-skype/image.png)](/images/blog/macos-anrufe-nicht-automatisch-uber-skype/image.png)
+[![](/images/blog/macos-anrufe-nicht-automatisch-uber-skype/image-1.png)](/images/blog/macos-anrufe-nicht-automatisch-uber-skype/image-1.png)
 
 Gutes Gelingen wünsch ich Dir!
 

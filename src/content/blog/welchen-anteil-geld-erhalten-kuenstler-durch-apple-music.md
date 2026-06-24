@@ -25,8 +25,8 @@ originalUrl: "https://wasgelingtmir.com/2015/08/27/welchen-anteil-geld-erhalten-
 wordpressId: "6"
 ---
 
-[![Apple Music](/images/blog/welchen-anteil-geld-erhalten-kuenstler-durch-apple-music/apple-music.png)](https://wasgelingtmir.com/wp-content/uploads/2015/08/apple-music.png)
-[![Apple_Music_logo.svg](/images/blog/welchen-anteil-geld-erhalten-kuenstler-durch-apple-music/apple_music_logo-svg.png)](https://wasgelingtmir.com/wp-content/uploads/2015/08/apple_music_logo-svg.png)
+[![Apple Music](/images/blog/welchen-anteil-geld-erhalten-kuenstler-durch-apple-music/apple-music.png)](/images/blog/welchen-anteil-geld-erhalten-kuenstler-durch-apple-music/apple-music.png)
+[![Apple_Music_logo.svg](/images/blog/welchen-anteil-geld-erhalten-kuenstler-durch-apple-music/apple_music_logo-svg.png)](/images/blog/welchen-anteil-geld-erhalten-kuenstler-durch-apple-music/apple_music_logo-svg.png)
 Ich bin interessiert, was Apple Antwortet:
 
 **Wie viele Anteile Geld erhalten Künstler durch Apple Music / Radio?**

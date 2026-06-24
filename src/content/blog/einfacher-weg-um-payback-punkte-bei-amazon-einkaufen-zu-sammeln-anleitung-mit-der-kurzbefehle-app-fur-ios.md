@@ -10,7 +10,7 @@ originalUrl: "https://wasgelingtmir.com/2024/09/06/einfacher-weg-um-payback-punk
 wordpressId: "1777"
 ---
 
-[![](/images/blog/einfacher-weg-um-payback-punkte-bei-amazon-einkaufen-zu-sammeln-anleitung-mit-der-kurzbefehle-app-fur-ios/screenrecording_09-06-2024-13.gif)](https://wasgelingtmir.com/wp-content/uploads/2024/09/screenrecording_09-06-2024-13.gif)
+[![](/images/blog/einfacher-weg-um-payback-punkte-bei-amazon-einkaufen-zu-sammeln-anleitung-mit-der-kurzbefehle-app-fur-ios/screenrecording_09-06-2024-13.gif)](/images/blog/einfacher-weg-um-payback-punkte-bei-amazon-einkaufen-zu-sammeln-anleitung-mit-der-kurzbefehle-app-fur-ios/screenrecording_09-06-2024-13.gif)
 
 Möchtest du Payback-Punkte bei deinen Amazon-Einkäufen sammeln, ohne jedes Mal durch die Payback-App navigieren zu müssen? Hier ist eine einfache Lösung für iOS, die dir Zeit spart und sicherstellt, dass deine Punkte korrekt erfasst werden.
 
@@ -54,7 +54,7 @@ https://www.amazon.de/?_encoding=UTF8&tag=wwwpaybackat-21&ascsubtag=XXXXXXXXXXXX
 - Tippe auf das Icon links, um ein neues Bild aus deiner Galerie auszuwählen oder ein Foto aufzunehmen. Hier ein Beispiel-Icon zum Download.
 - Wähle ein Bild, das du als Icon verwenden möchtest, damit du den Kurzbefehl leicht erkennst.
 
-[![](/images/blog/einfacher-weg-um-payback-punkte-bei-amazon-einkaufen-zu-sammeln-anleitung-mit-der-kurzbefehle-app-fur-ios/amazon-payback-logo.png)](https://wasgelingtmir.com/wp-content/uploads/2024/09/amazon-payback-logo.png)
+[![](/images/blog/einfacher-weg-um-payback-punkte-bei-amazon-einkaufen-zu-sammeln-anleitung-mit-der-kurzbefehle-app-fur-ios/amazon-payback-logo.png)](/images/blog/einfacher-weg-um-payback-punkte-bei-amazon-einkaufen-zu-sammeln-anleitung-mit-der-kurzbefehle-app-fur-ios/amazon-payback-logo.png)
 
 **7. Zum Home-Bildschirm hinzufügen**
 

@@ -55,23 +55,23 @@ Wenn Ihr wie ich nicht wisst, was der da meint, hier die Fotoserie zum Nachvollz
 
 Am Homebildschirm in den Einstellungen:
 
-[![](/images/blog/apple-beats-airpods-probleme-erste-hilfe/iphone-einstellungen.png)](https://wasgelingtmir.com/wp-content/uploads/2021/11/iphone-einstellungen.png)
+[![](/images/blog/apple-beats-airpods-probleme-erste-hilfe/iphone-einstellungen.png)](/images/blog/apple-beats-airpods-probleme-erste-hilfe/iphone-einstellungen.png)
 
 Klick auf Bedienungshilfen:
 
-[![](/images/blog/apple-beats-airpods-probleme-erste-hilfe/bedienungshilfen.png)](https://wasgelingtmir.com/wp-content/uploads/2021/11/bedienungshilfen.png)
+[![](/images/blog/apple-beats-airpods-probleme-erste-hilfe/bedienungshilfen.png)](/images/blog/apple-beats-airpods-probleme-erste-hilfe/bedienungshilfen.png)
 
 Tippe auf Audio/Visuell:
 
-[![](/images/blog/apple-beats-airpods-probleme-erste-hilfe/audio-visuell.png)](https://wasgelingtmir.com/wp-content/uploads/2021/11/audio-visuell.png)
+[![](/images/blog/apple-beats-airpods-probleme-erste-hilfe/audio-visuell.png)](/images/blog/apple-beats-airpods-probleme-erste-hilfe/audio-visuell.png)
 
 Tippe auf Kopfhörer-Anpassungen:
 
-[![](/images/blog/apple-beats-airpods-probleme-erste-hilfe/audioausgabe-ueber-kopfhoerer.png)](https://wasgelingtmir.com/wp-content/uploads/2021/11/audioausgabe-ueber-kopfhoerer.png)
+[![](/images/blog/apple-beats-airpods-probleme-erste-hilfe/audioausgabe-ueber-kopfhoerer.png)](/images/blog/apple-beats-airpods-probleme-erste-hilfe/audioausgabe-ueber-kopfhoerer.png)
 
 Achte darauf, dass der Schieber bei Kopfhöreranpassungen aktiviert und grün ist:
 
-[![](/images/blog/apple-beats-airpods-probleme-erste-hilfe/kopfhoereranpassungen-aktivieren.png)](https://wasgelingtmir.com/wp-content/uploads/2021/11/kopfhoereranpassungen-aktivieren.png)
+[![](/images/blog/apple-beats-airpods-probleme-erste-hilfe/kopfhoereranpassungen-aktivieren.png)](/images/blog/apple-beats-airpods-probleme-erste-hilfe/kopfhoereranpassungen-aktivieren.png)
 
 Teste nun, ob es besser geworden ist und ob die Fehler beseitigt sind. Wenn nicht, fahre mit den folgenden Schritten fort:
 

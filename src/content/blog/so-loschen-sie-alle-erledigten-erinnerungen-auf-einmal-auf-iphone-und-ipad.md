@@ -33,52 +33,52 @@ Alternativ können Sie sich die vorkonfigurierte Verknüpfung "[Erinnerungen lö
 
 Öffnen Sie die "Kurzbefehle"-App auf Ihrem iPhone oder iPad und gehen Sie auf die Registerkarte "Meine Kurzbefehle". Tippen Sie auf das Pluszeichen (+) oben rechts, um eine neue Verknüpfung zu erstellen.
 
-[![](/images/blog/so-loschen-sie-alle-erledigten-erinnerungen-auf-einmal-auf-iphone-und-ipad/img_0308-1.png)](https://wasgelingtmir.com/wp-content/uploads/2021/02/img_0308-1.png)
+[![](/images/blog/so-loschen-sie-alle-erledigten-erinnerungen-auf-einmal-auf-iphone-und-ipad/img_0308-1.png)](/images/blog/so-loschen-sie-alle-erledigten-erinnerungen-auf-einmal-auf-iphone-und-ipad/img_0308-1.png)
 
 Tippen Sie auf "Aktion hinzufügen".
 
-[![](/images/blog/so-loschen-sie-alle-erledigten-erinnerungen-auf-einmal-auf-iphone-und-ipad/img_0309.png)](https://wasgelingtmir.com/wp-content/uploads/2021/02/img_0309.png)
+[![](/images/blog/so-loschen-sie-alle-erledigten-erinnerungen-auf-einmal-auf-iphone-und-ipad/img_0309.png)](/images/blog/so-loschen-sie-alle-erledigten-erinnerungen-auf-einmal-auf-iphone-und-ipad/img_0309.png)
 
 Tippen Sie "Erinnerungen suchen" ein und wählen Sie "Erinnerungen suchen".
 
-[![](/images/blog/so-loschen-sie-alle-erledigten-erinnerungen-auf-einmal-auf-iphone-und-ipad/img_0311.png)](https://wasgelingtmir.com/wp-content/uploads/2021/02/img_0311.png)
+[![](/images/blog/so-loschen-sie-alle-erledigten-erinnerungen-auf-einmal-auf-iphone-und-ipad/img_0311.png)](/images/blog/so-loschen-sie-alle-erledigten-erinnerungen-auf-einmal-auf-iphone-und-ipad/img_0311.png)
 
 Tippen Sie auf "Filter hinzufügen".
 
-[![](/images/blog/so-loschen-sie-alle-erledigten-erinnerungen-auf-einmal-auf-iphone-und-ipad/img_0313.png)](https://wasgelingtmir.com/wp-content/uploads/2021/02/img_0313.png)
+[![](/images/blog/so-loschen-sie-alle-erledigten-erinnerungen-auf-einmal-auf-iphone-und-ipad/img_0313.png)](/images/blog/so-loschen-sie-alle-erledigten-erinnerungen-auf-einmal-auf-iphone-und-ipad/img_0313.png)
 
 Tippen Sie auf "Liste".
 
-[![](/images/blog/so-loschen-sie-alle-erledigten-erinnerungen-auf-einmal-auf-iphone-und-ipad/img_0314.png)](https://wasgelingtmir.com/wp-content/uploads/2021/02/img_0314.png)
+[![](/images/blog/so-loschen-sie-alle-erledigten-erinnerungen-auf-einmal-auf-iphone-und-ipad/img_0314.png)](/images/blog/so-loschen-sie-alle-erledigten-erinnerungen-auf-einmal-auf-iphone-und-ipad/img_0314.png)
 
 Tippen Sie auf "Ist erledigt".
 
-[![](/images/blog/so-loschen-sie-alle-erledigten-erinnerungen-auf-einmal-auf-iphone-und-ipad/img_a1d19c09e9f8-1.jpeg)](https://wasgelingtmir.com/wp-content/uploads/2021/02/img_a1d19c09e9f8-1.jpeg)
+[![](/images/blog/so-loschen-sie-alle-erledigten-erinnerungen-auf-einmal-auf-iphone-und-ipad/img_a1d19c09e9f8-1.jpeg)](/images/blog/so-loschen-sie-alle-erledigten-erinnerungen-auf-einmal-auf-iphone-und-ipad/img_a1d19c09e9f8-1.jpeg)
 
 Um die nächste Aktion hinzuzufügen, tippen Sie auf das Pluszeichen (+).
 
-[![](/images/blog/so-loschen-sie-alle-erledigten-erinnerungen-auf-einmal-auf-iphone-und-ipad/img_0316.png)](https://wasgelingtmir.com/wp-content/uploads/2021/02/img_0316.png)
+[![](/images/blog/so-loschen-sie-alle-erledigten-erinnerungen-auf-einmal-auf-iphone-und-ipad/img_0316.png)](/images/blog/so-loschen-sie-alle-erledigten-erinnerungen-auf-einmal-auf-iphone-und-ipad/img_0316.png)
 
 Schreiben Sie "Erinnerungen entfernen" hinein und wählen Sie "Erinnerungen entfernen".
 
-[![](/images/blog/so-loschen-sie-alle-erledigten-erinnerungen-auf-einmal-auf-iphone-und-ipad/img_2d6a1e5ab871-1-2.jpeg)](https://wasgelingtmir.com/wp-content/uploads/2021/02/img_2d6a1e5ab871-1-2.jpeg)
+[![](/images/blog/so-loschen-sie-alle-erledigten-erinnerungen-auf-einmal-auf-iphone-und-ipad/img_2d6a1e5ab871-1-2.jpeg)](/images/blog/so-loschen-sie-alle-erledigten-erinnerungen-auf-einmal-auf-iphone-und-ipad/img_2d6a1e5ab871-1-2.jpeg)
 
 Jetzt haben Sie erfolgreich eine Verknüpfung erstellt! Tippen Sie oben rechts auf "Weiter".
 
-[![](/images/blog/so-loschen-sie-alle-erledigten-erinnerungen-auf-einmal-auf-iphone-und-ipad/img_0319.png)](https://wasgelingtmir.com/wp-content/uploads/2021/02/img_0319.png)
+[![](/images/blog/so-loschen-sie-alle-erledigten-erinnerungen-auf-einmal-auf-iphone-und-ipad/img_0319.png)](/images/blog/so-loschen-sie-alle-erledigten-erinnerungen-auf-einmal-auf-iphone-und-ipad/img_0319.png)
 
 Geben Sie auf diesem Bildschirm Ihrer Verknüpfung einen Namen (wir haben uns für „Erledigte Erinnerungen entfernen" entschieden). Sie können auch auf das Symbol tippen, um seine Glyphe und Farbe anzupassen. Wenn Sie fertig sind, tippen Sie auf "Fertig", um zu speichern.
 
-[![](/images/blog/so-loschen-sie-alle-erledigten-erinnerungen-auf-einmal-auf-iphone-und-ipad/img_0321.png)](https://wasgelingtmir.com/wp-content/uploads/2021/02/img_0321.png)
+[![](/images/blog/so-loschen-sie-alle-erledigten-erinnerungen-auf-einmal-auf-iphone-und-ipad/img_0321.png)](/images/blog/so-loschen-sie-alle-erledigten-erinnerungen-auf-einmal-auf-iphone-und-ipad/img_0321.png)
 
 Sie können Ihre neue Verknüpfung ausführen, indem Sie sie oben auf der Registerkarte "Alle Verknüpfungen" antippen. Um unsere auszuführen, tippen wir auf "Erledigte Erinnerungen entfernen".
 
-[![](/images/blog/so-loschen-sie-alle-erledigten-erinnerungen-auf-einmal-auf-iphone-und-ipad/img_0322.png)](https://wasgelingtmir.com/wp-content/uploads/2021/02/img_0322.png)
+[![](/images/blog/so-loschen-sie-alle-erledigten-erinnerungen-auf-einmal-auf-iphone-und-ipad/img_0322.png)](/images/blog/so-loschen-sie-alle-erledigten-erinnerungen-auf-einmal-auf-iphone-und-ipad/img_0322.png)
 
 Je nach Anzahl der Erinnerungen kann es schon mehrere Sekunden dauern, bis das Popup kommt. In unserem Fall kamen drei Popups, ob wir WIRKLICH ABSOLUT sicher sind, alle 1.379 Erinnerungen zu entfernen.
 
 Tippen Sie auf "Entfernen", um alle Ihre erledigten Erinnerungen zu löschen.
 
-[![](/images/blog/so-loschen-sie-alle-erledigten-erinnerungen-auf-einmal-auf-iphone-und-ipad/img_0327.png)](https://wasgelingtmir.com/wp-content/uploads/2021/02/img_0327.png)
+[![](/images/blog/so-loschen-sie-alle-erledigten-erinnerungen-auf-einmal-auf-iphone-und-ipad/img_0327.png)](/images/blog/so-loschen-sie-alle-erledigten-erinnerungen-auf-einmal-auf-iphone-und-ipad/img_0327.png)
 
 Sie können dies einmal pro Woche oder jeden Monat tun, um alle erledigten Erinnerungen zu löschen.

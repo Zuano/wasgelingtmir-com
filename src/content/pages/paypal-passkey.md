@@ -7,7 +7,7 @@ type: "page"
 originalUrl: "https://wasgelingtmir.com/paypal-passkey/"
 ---
 
-[![](/images/blog/paypal-passkey/paypal-logo-paypal-logo-free-free-vector.jpg)](https://zuano82.wordpress.com/wp-content/uploads/2025/08/paypal-logo-paypal-logo-free-free-vector.jpg)
+[![](/images/blog/paypal-passkey/paypal-logo-paypal-logo-free-free-vector.jpg)](/images/blog/paypal-passkey/paypal-logo-paypal-logo-free-free-vector.jpg)
 
 Ich wollte mich auf meinem Mac mit **Touch ID** bei PayPal einloggen – **ohne Passwort, nur mit Passkey**. Aber:
 
@@ -27,7 +27,7 @@ Nach etwas Tüftelei habe ich den genauen Ablauf herausgefunden. Hier das vollst
 4. Dort findest du die Option, einen **Passkey zu hinterlegen**.
 5. **Wichtig:** Der Passkey muss im **Apple Passwortmanager (iCloud-Schlüsselbund)** gespeichert werden – **nicht in 1Password** oder anderen Tools.
 
-[![](/images/blog/paypal-passkey/bildschirmfoto-2025-08-28-um-09.38.06.png)](https://zuano82.wordpress.com/wp-content/uploads/2025/08/bildschirmfoto-2025-08-28-um-09.38.06.png)
+[![](/images/blog/paypal-passkey/bildschirmfoto-2025-08-28-um-09.38.06.png)](/images/blog/paypal-passkey/bildschirmfoto-2025-08-28-um-09.38.06.png)
 
 ---
 

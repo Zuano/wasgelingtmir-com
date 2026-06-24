@@ -20,7 +20,7 @@ Auf vielen Android-Telefonen gibt es in der Kontakt-Karte – neben den Symbolen
 
 Viele Nutzer sind sich nicht bewusst, dass bei der Nutzung dieser Funktion Kosten entstehen können, die nicht durch übliche Flatrates abgedeckt sind. Besonders tückisch wird es, wenn Nutzer versehentlich das Video-Symbol anstelle des regulären Telefonie-Symbols antippen.
 
-[![](/images/blog/achtung-kostenfalle-wie-unscheinbare-videoanruf-symbole-teuer-werden-konnen/bildschirmfoto-2024-05-08-um-13.26.24-1.png)](https://wasgelingtmir.com/wp-content/uploads/2024/05/bildschirmfoto-2024-05-08-um-13.26.24-1.png)
+[![](/images/blog/achtung-kostenfalle-wie-unscheinbare-videoanruf-symbole-teuer-werden-konnen/bildschirmfoto-2024-05-08-um-13.26.24-1.png)](/images/blog/achtung-kostenfalle-wie-unscheinbare-videoanruf-symbole-teuer-werden-konnen/bildschirmfoto-2024-05-08-um-13.26.24-1.png)
 
 #### **Unterschied zu iPhone-Geräten**
 
