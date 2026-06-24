@@ -95,5 +95,8 @@ const socialImage = new URL(image, Astro.site).href;
       <slot />
     </main>
     <Footer />
+    <!-- Cloudflare Web Analytics / Besucher-Statistik -->
+    <script is:inline defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "68d8718957a0420fb59a4300848e0b88"}'></script>
+    <!-- End Cloudflare Web Analytics -->
   </body>
 </html>
