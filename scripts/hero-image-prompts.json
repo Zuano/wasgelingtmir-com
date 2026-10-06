@@ -5,6 +5,12 @@
   "_note": "Target filename = slug + .png (or .jpg/.webp). Import-Script matches filename against slug to deposit into public/images/blog/<slug>/hero.webp.",
   "priority_critical": [
     {
+      "slug": "paketsteuer-bestraft-vernuenftiges-einkaufen",
+      "title": "Die Paketsteuer bestraft vernünftiges Einkaufen",
+      "category": "leben-gedanken",
+      "prompt": "A single small cardboard parcel sitting on a doorstep, with a tiny shadowed tax stamp or a few stacked coins resting on its lid like an extra weight. In the soft-focus background, a quiet small-town shop window with empty shelves and the lights dimmed. On the opposite side, a simple wall clock suggesting time saved. Calm, thoughtful, slightly ironic mood, not angry."
+    },
+    {
       "slug": "time-machine-zwei-macs-mac-mini-macbook-drahtlos-sichern",
       "title": "Time Machine: zwei Macs drahtlos sichern",
       "category": "apple-mac",

@@ -50,3 +50,4 @@ Siehe auch: [`DOCUMENTATION.md`](./DOCUMENTATION.md) · [`plan.md`](./plan.md)
 - **2026-04-23** GitHub-Repository angelegt (https://github.com/Zuano/wasgelingtmir-com).
 - **2026-04-23** GitHub Actions Deployment-Workflow eingerichtet und gestartet.
 - **2026-04-23** DNS-Umzugsanleitung (`DNS-UMZUG.md`) erstellt – wartet auf Domain-Registrar-Infos.
+- **2026-10-06** Neuer Meinungsartikel `paketsteuer-bestraft-vernuenftiges-einkaufen` (Leben & Gedanken) mit ChatGPT-Titelbild eingebaut; Bild-Prompt in `scripts/hero-image-prompts.json` ergänzt. Branch `feature/paketsteuer-artikel`, Merge in `main` (= live gehen) steht aus.
