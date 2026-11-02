@@ -5,7 +5,7 @@ import BaseLayout from "~/layouts/BaseLayout.astro";
 import CategoryBadge from "~/components/CategoryBadge.astro";
 import FormattedDate from "~/components/FormattedDate.astro";
 import ArticleNav from "~/components/ArticleNav.astro";
-import { CATEGORIES } from "~/consts";
+import { CATEGORIES, SITE } from "~/consts";
 import { link } from "~/utils/link";
 
 interface Props {
@@ -18,6 +18,26 @@ const { post, prev, next } = Astro.props;
 const { data } = post;
 const categoryInfo = CATEGORIES[data.categorySlug];
 const heroImage = data.heroImage ? link(data.heroImage) : undefined;
+
+// Schema.org-Angaben für den Artikel / Schema.org data for the article
+const articleSchema = {
+  "@type": "BlogPosting",
+  headline: data.title,
+  description: data.description || undefined,
+  image: new URL(heroImage ?? "/og-default.png", Astro.site).href,
+  datePublished: data.pubDate.toISOString(),
+  dateModified: (data.updatedDate ?? data.pubDate).toISOString(),
+  author: {
+    "@type": "Person",
+    name: SITE.author,
+    url: new URL(link("/ueber-mich"), Astro.site).href,
+  },
+  mainEntityOfPage: new URL(Astro.url.pathname, Astro.site).href,
+  isPartOf: { "@id": `${new URL(link("/"), Astro.site).href}#website` },
+  articleSection: categoryInfo.name,
+  keywords: data.tags.length > 0 ? data.tags.join(", ") : undefined,
+  inLanguage: SITE.locale,
+};
 ---
 
 <BaseLayout
@@ -25,6 +45,7 @@ const heroImage = data.heroImage ? link(data.heroImage) : undefined;
   description={data.description}
   image={heroImage}
   ogType="article"
+  schema={articleSchema}
 >
   <article class="mx-auto max-w-3xl px-4 py-10 md:px-6 md:py-16">
     <!-- Artikel-Kopf / article header -->

@@ -37,3 +37,10 @@
 **Begründung:**
 - User-Wunsch nach effizientem Workflow
 - Trotzdem volle Nachvollziehbarkeit: User kann jede Änderung einzeln nachlesen und ggf. rückgängig machen
+
+## 2026-11-02 – SEO-Grundausstattung: Vorschaubild, JSON-LD, Titelregel
+**Entscheidung:**
+- Standard-Vorschaubild `public/og-default.png` (1200×630) für Seiten ohne eigenes Titelbild; erzeugt mit `scripts/make-og-image.mjs` (nutzt das schon vorhandene Paket `sharp`).
+- Strukturierte Daten (JSON-LD) in `BaseLayout.astro`: auf jeder Seite `WebSite`, auf Artikeln zusätzlich `BlogPosting` (Autor, Datum, Bild, Kategorie).
+- Titelregel: „· wasgelingtmir.com“ wird nur angehängt, wenn der Titel dann höchstens 60 Zeichen hat (so viel zeigt Google ungefähr). Startseiten-Titel: „wasgelingtmir.com – Tipps zu Apple, Gesundheit & Ernährung“.
+**Begründung:** Die Prüfung mit dem Skill „seobility-optimizer“ hat diese drei echten Lücken gezeigt. Bewusst NICHT übernommen: versteckter Fülltext, Teilen-Knöpfe und Wikipedia-Links nur für Punkte sowie `robots: index, follow` (wird nicht gebraucht). Grund: Das bringt Seobility-Punkte, aber keinen Nutzen für Leser oder Google, und versteckter Text kann sogar schaden.

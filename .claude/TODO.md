@@ -15,7 +15,9 @@ Siehe auch: [`DOCUMENTATION.md`](./DOCUMENTATION.md) · [`plan.md`](./plan.md)
 - [ ] Such-Funktion
 - [ ] RSS-Feed
 - [ ] Sitemap + robots.txt
-- [ ] SEO (Meta-Tags, Open Graph, structured data)
+- [x] SEO (Meta-Tags, Open Graph, structured data) – Grundausstattung 2026-11-02
+- [ ] ~13 Artikel-Titel sind auch ohne Seitennamen länger als 60 Zeichen → kürzere Such-Titel (z. B. Feld `seoTitle`) überlegen
+- [ ] Manche Artikel-Beschreibungen zu kurz (<120) oder zu lang (>160) Zeichen
 - [ ] Performance-Check (Lighthouse-Ziel 95+)
 
 ## GitHub & Deployment
@@ -50,3 +52,5 @@ Siehe auch: [`DOCUMENTATION.md`](./DOCUMENTATION.md) · [`plan.md`](./plan.md)
 - **2026-04-23** GitHub-Repository angelegt (https://github.com/Zuano/wasgelingtmir-com).
 - **2026-04-23** GitHub Actions Deployment-Workflow eingerichtet und gestartet.
 - **2026-04-23** DNS-Umzugsanleitung (`DNS-UMZUG.md`) erstellt – wartet auf Domain-Registrar-Infos.
+- **2026-11-02** Skill „seobility-optimizer" (github.com/echo3x3e/seobility-optimizer) geprüft: Prüfskript ist harmlos (liest nur), bildet aber Seobility nur grob nach; Live-Modus nutzt eine inoffizielle Seobility-Schnittstelle mit vorgetäuschtem Browser → nicht verwenden. Lokaler Test: Startseite ~71 %, Time-Machine-Artikel ~78 %. Echte Funde: `og-default.png` fehlt (404 → kaputte Vorschau beim Teilen), kein JSON-LD (strukturierte Daten), Titel zu lang (Startseite 86 Zeichen, Artikel durch Zusatz „· wasgelingtmir.com"), manche Beschreibungen zu lang/kurz. Umsetzung wartet auf Christians Auswahl.
+- **2026-11-02** SEO umgesetzt (Branch `claude/seobility-website-optimization-846cb4`): `public/og-default.png` (fehlte, war 404) + Generator `scripts/make-og-image.mjs`; JSON-LD `WebSite` + `BlogPosting`; Titel hängen „· wasgelingtmir.com“ nur an, wenn ≤ 60 Zeichen; Startseiten-Titel auf 58 Zeichen gekürzt. Build ok, JSON-LD gültig. Noch nicht live/gemergt.

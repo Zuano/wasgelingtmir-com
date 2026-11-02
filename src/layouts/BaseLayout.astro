@@ -13,6 +13,8 @@ interface Props {
   ogType?: "website" | "article";
   canonical?: string;
   noindex?: boolean;
+  // Zusätzliches Schema.org-Objekt (z. B. BlogPosting) / extra Schema.org object (e.g. BlogPosting)
+  schema?: Record<string, unknown>;
 }
 
 const {
@@ -22,11 +24,37 @@ const {
   ogType = "website",
   canonical,
   noindex = false,
+  schema,
 } = Astro.props;
 
-const fullTitle = title ? `${title} · ${SITE.title}` : `${SITE.title} – ${SITE.tagline}`;
+// Google zeigt ca. 60 Zeichen – den Seitennamen nur anhängen, wenn er noch Platz hat.
+// Google shows ~60 characters – only append the site name if it still fits.
+const MAX_TITLE_LENGTH = 60;
+const titleWithSite = `${title} · ${SITE.title}`;
+const fullTitle = title
+  ? titleWithSite.length <= MAX_TITLE_LENGTH ? titleWithSite : title
+  : `${SITE.title} – Tipps zu Apple, Gesundheit & Ernährung`;
 const canonicalURL = canonical ?? new URL(Astro.url.pathname, Astro.site).href;
 const socialImage = new URL(image, Astro.site).href;
+const homeURL = new URL(link("/"), Astro.site).href;
+
+// Strukturierte Daten für Google (JSON-LD) / structured data for search engines
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": `${homeURL}#website`,
+      url: homeURL,
+      name: SITE.title,
+      description: SITE.description,
+      inLanguage: SITE.locale,
+    },
+    ...(schema ? [schema] : []),
+  ],
+};
+// "<" maskieren, damit kein Text das Script-Tag beenden kann / escape "<" so text can't close the script tag
+const jsonLdString = JSON.stringify(jsonLd).replace(/</g, "\\u003c");
 ---
 
 <!doctype html>
@@ -41,6 +69,8 @@ const socialImage = new URL(image, Astro.site).href;
     <link rel="canonical" href={canonicalURL} />
 
     {noindex && <meta name="robots" content="noindex, nofollow" />}
+
+    <script type="application/ld+json" set:html={jsonLdString} />
 
     <link rel="icon" type="image/svg+xml" href={link("/favicon.svg")} />
     <link rel="sitemap" href={link("/sitemap-index.xml")} />
