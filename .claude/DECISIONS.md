@@ -44,3 +44,7 @@
 - Strukturierte Daten (JSON-LD) in `BaseLayout.astro`: auf jeder Seite `WebSite`, auf Artikeln zusätzlich `BlogPosting` (Autor, Datum, Bild, Kategorie).
 - Titelregel: „· wasgelingtmir.com“ wird nur angehängt, wenn der Titel dann höchstens 60 Zeichen hat (so viel zeigt Google ungefähr). Startseiten-Titel: „wasgelingtmir.com – Tipps zu Apple, Gesundheit & Ernährung“.
 **Begründung:** Die Prüfung mit dem Skill „seobility-optimizer“ hat diese drei echten Lücken gezeigt. Bewusst NICHT übernommen: versteckter Fülltext, Teilen-Knöpfe und Wikipedia-Links nur für Punkte sowie `robots: index, follow` (wird nicht gebraucht). Grund: Das bringt Seobility-Punkte, aber keinen Nutzen für Leser oder Google, und versteckter Text kann sogar schaden.
+
+## 2026-11-02 – Kurztitel über `seoTitle`
+**Entscheidung:** Artikel und Seiten können im Kopfbereich ein `seoTitle` haben. Es ersetzt nur den `<title>` (Google, Browser-Tab, Teilen-Vorschau); die Überschrift im Artikel und `headline` in den strukturierten Daten bleiben der volle `title`.
+**Begründung:** 13 Titel waren allein schon 64–124 Zeichen lang. Die Überschriften umzuschreiben hätte den Text verändert; ein eigenes Feld kürzt nur dort, wo Google abschneidet.

@@ -1,5 +1,6 @@
 ---
 title: "Apple Beats Kopfhörer / AirPods: Probleme beseitigen - Erste Hilfe"
+seoTitle: "Beats & AirPods: Erste Hilfe bei Problemen am iPhone"
 description: "Es kann zu Problemen kommen, wenn gewisse Einstellungen nicht gemacht sind."
 pubDate: "2021-11-22"
 category: "Apple & Mac"

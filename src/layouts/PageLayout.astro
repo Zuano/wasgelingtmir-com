@@ -12,7 +12,7 @@ const { page } = Astro.props;
 const { data } = page;
 ---
 
-<BaseLayout title={data.title} description={data.description}>
+<BaseLayout title={data.seoTitle ?? data.title} description={data.description}>
   <article class="mx-auto max-w-3xl px-4 py-10 md:px-6 md:py-16">
     <header class="mb-10">
       <h1 class="font-serif text-3xl font-bold tracking-tight text-stone-900 md:text-5xl dark:text-stone-50">

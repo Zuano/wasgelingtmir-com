@@ -1,5 +1,6 @@
 ---
 title: "Einfacher Weg, um Payback-Punkte bei Amazon-Einkäufen zu sammeln – Anleitung mit der Kurzbefehle-App für iOS"
+seoTitle: "Payback-Punkte bei Amazon sammeln mit der Kurzbefehle-App"
 description: "Möchtest du Payback-Punkte bei deinen Amazon-Einkäufen sammeln, ohne jedes Mal durch die Payback-App navigieren zu müssen? Hier ist eine einfache Lösung für iOS"
 pubDate: "2024-09-06"
 category: "Web & Dienste"

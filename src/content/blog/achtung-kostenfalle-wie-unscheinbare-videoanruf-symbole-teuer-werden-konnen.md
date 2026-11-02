@@ -1,5 +1,6 @@
 ---
 title: "Achtung Kostenfalle: Wie unscheinbare Videoanruf-Symbole teuer werden können"
+seoTitle: "Kostenfalle: Wenn das Videoanruf-Symbol teuer wird"
 description: "Videotelefonie hat die Art und Weise, wie wir kommunizieren, revolutioniert, insbesondere in Zeiten, in denen persönliche Treffen nicht immer möglich sind."
 pubDate: "2024-05-08"
 category: "Web & Dienste"

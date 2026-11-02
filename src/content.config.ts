@@ -7,6 +7,8 @@ const blog = defineCollection({
   loader: glob({ pattern: "**/*.md", base: "./src/content/blog" }),
   schema: z.object({
     title: z.string(),
+    // Kürzerer Titel für Google/Browser-Tab (max. ~60 Zeichen) / shorter title for search results
+    seoTitle: z.string().optional(),
     description: z.string().default(""),
     pubDate: z.coerce.date(),
     updatedDate: z.coerce.date().optional(),
@@ -34,6 +36,8 @@ const pages = defineCollection({
   loader: glob({ pattern: "**/*.md", base: "./src/content/pages" }),
   schema: z.object({
     title: z.string(),
+    // Kürzerer Titel für Google/Browser-Tab (max. ~60 Zeichen) / shorter title for search results
+    seoTitle: z.string().optional(),
     description: z.string().default(""),
     pubDate: z.coerce.date(),
     updatedDate: z.coerce.date().optional(),

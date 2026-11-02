@@ -1,5 +1,6 @@
 ---
 title: "FaceTime-Anrufe auf dem Mac transkribieren – trotz offizieller Einschränkungen"
+seoTitle: "FaceTime-Anrufe am Mac transkribieren – so geht's trotzdem"
 description: "Apple bietet mit FaceTime eine komfortable Möglichkeit für Audio- und Videoanrufe unter macOS."
 pubDate: "2025-12-21"
 category: "Apple & Mac"

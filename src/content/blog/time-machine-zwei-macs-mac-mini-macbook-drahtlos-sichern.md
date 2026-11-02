@@ -1,5 +1,6 @@
 ---
 title: "Time Machine für zwei Macs: MacBook drahtlos über den Mac mini sichern"
+seoTitle: "Time Machine: MacBook drahtlos über den Mac mini sichern"
 description: "Wie ich ein MacBook drahtlos über meinen Mac mini per Time Machine gesichert habe – inklusive der Stolperfallen mit versiegelten APFS-Volumes und dem zweiten Volume als Lösung."
 pubDate: "2026-05-04"
 category: "Apple & Mac"

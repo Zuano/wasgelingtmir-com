@@ -16,7 +16,8 @@ Siehe auch: [`DOCUMENTATION.md`](./DOCUMENTATION.md) · [`plan.md`](./plan.md)
 - [ ] RSS-Feed
 - [ ] Sitemap + robots.txt
 - [x] SEO (Meta-Tags, Open Graph, structured data) – Grundausstattung 2026-11-02
-- [ ] ~13 Artikel-Titel sind auch ohne Seitennamen länger als 60 Zeichen → kürzere Such-Titel (z. B. Feld `seoTitle`) überlegen
+- [x] Zu lange Titel: 13 Seiten haben jetzt ein kürzeres `seoTitle` (2026-11-02)
+- [ ] Artikel „Wie fühlt es sich an, zu hören: Den ...“ hat einen abgeschnittenen Titel → mit Christian klären
 - [ ] Manche Artikel-Beschreibungen zu kurz (<120) oder zu lang (>160) Zeichen
 - [ ] Performance-Check (Lighthouse-Ziel 95+)
 
@@ -54,3 +55,4 @@ Siehe auch: [`DOCUMENTATION.md`](./DOCUMENTATION.md) · [`plan.md`](./plan.md)
 - **2026-04-23** DNS-Umzugsanleitung (`DNS-UMZUG.md`) erstellt – wartet auf Domain-Registrar-Infos.
 - **2026-11-02** Skill „seobility-optimizer" (github.com/echo3x3e/seobility-optimizer) geprüft: Prüfskript ist harmlos (liest nur), bildet aber Seobility nur grob nach; Live-Modus nutzt eine inoffizielle Seobility-Schnittstelle mit vorgetäuschtem Browser → nicht verwenden. Lokaler Test: Startseite ~71 %, Time-Machine-Artikel ~78 %. Echte Funde: `og-default.png` fehlt (404 → kaputte Vorschau beim Teilen), kein JSON-LD (strukturierte Daten), Titel zu lang (Startseite 86 Zeichen, Artikel durch Zusatz „· wasgelingtmir.com"), manche Beschreibungen zu lang/kurz. Umsetzung wartet auf Christians Auswahl.
 - **2026-11-02** SEO umgesetzt (Branch `claude/seobility-website-optimization-846cb4`): `public/og-default.png` (fehlte, war 404) + Generator `scripts/make-og-image.mjs`; JSON-LD `WebSite` + `BlogPosting`; Titel hängen „· wasgelingtmir.com“ nur an, wenn ≤ 60 Zeichen; Startseiten-Titel auf 58 Zeichen gekürzt. Build ok, JSON-LD gültig. Noch nicht live/gemergt.
+- **2026-11-02** Neues freiwilliges Feld `seoTitle` (Artikel + Seiten) für Google/Browser-Tab; 13 Seiten mit Kurztiteln (50–60 Zeichen) versehen, Überschriften im Artikel unverändert. Build ok, jetzt keine Seite mehr über 60 Zeichen. Noch nicht gemergt.

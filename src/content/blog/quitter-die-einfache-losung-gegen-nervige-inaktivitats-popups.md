@@ -1,5 +1,6 @@
 ---
 title: "Quitter – die einfache Lösung gegen nervige Inaktivitäts-Popups"
+seoTitle: "Quitter – die einfache Lösung gegen Inaktivitäts-Popups"
 description: "Vor kurzem hatte ich ein richtig nerviges Problem mit einer Software auf meinem Mac: EpsonScan2 ."
 pubDate: "2025-09-15"
 category: "Apple & Mac"

@@ -1,5 +1,6 @@
 ---
 title: "Fisch enthält kein Omega 3 dafür enthält Weidefleisch welches"
+seoTitle: "Omega-3: Warum Weidefleisch mehr enthält als Zuchtfisch"
 description: ""
 pubDate: "2019-08-12"
 category: "Ernährung"

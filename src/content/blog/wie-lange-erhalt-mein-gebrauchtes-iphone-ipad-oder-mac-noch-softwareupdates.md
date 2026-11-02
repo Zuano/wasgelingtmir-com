@@ -1,5 +1,6 @@
 ---
 title: "Wie lange erhält mein gebrauchtes iPhone, iPad oder Mac noch Softwareupdates?"
+seoTitle: "Wie lange bekommt mein iPhone, iPad oder Mac noch Updates?"
 description: "Damit ich kalkulieren kann, wie lange ich Sicherheitsupdates für mein Apple Gerät bekomme, bevor ich mir ein Neues Anschaffe machte ich mich auf die Suche, wie"
 pubDate: "2023-03-23"
 category: "Apple & Mac"

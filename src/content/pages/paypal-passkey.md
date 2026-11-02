@@ -1,5 +1,6 @@
 ---
 title: "✅ PayPal Passkey am Mac mit Touch ID nutzen – die richtige Anleitung (Stand: 2025)"
+seoTitle: "PayPal Passkey am Mac mit Touch ID nutzen – Anleitung 2025"
 description: "Ich wollte mich auf meinem Mac mit Touch ID bei PayPal einloggen – ohne Passwort, nur mit Passkey. Aber:"
 pubDate: "2025-08-28"
 slug: "paypal-passkey"

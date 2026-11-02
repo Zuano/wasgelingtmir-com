@@ -1,5 +1,6 @@
 ---
 title: "Wie man den Persönlichen Hotspot auf dem iPhone für die Nutzung auf dem MacBook einrichtet, wenn alles andere fehlschlägt"
+seoTitle: "iPhone-Hotspot am MacBook einrichten, wenn nichts klappt"
 description: "Es gibt Momente, in denen Technologie uns herausfordert und herkömmliche Lösungen einfach nicht greifen."
 pubDate: "2024-04-10"
 category: "Apple & Mac"

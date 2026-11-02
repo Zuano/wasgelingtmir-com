@@ -1,5 +1,6 @@
 ---
 title: "So löschen Sie alle erledigten Erinnerungen auf einmal auf iPhone und iPad"
+seoTitle: "Erledigte Erinnerungen löschen: iPhone & iPad bis iOS 14"
 description: "Für iOS 15 und macOS 12 und neuer gibt es eine neue, deutlich einfachere Möglichkeit."
 pubDate: "2021-02-22"
 category: "Apple & Mac"

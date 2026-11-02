@@ -1,5 +1,6 @@
 ---
 title: "Die Magie des 90-Minuten-Schlafzyklus: Wie ich durch bewusste Schlafrhythmen mein Leben verändert habe"
+seoTitle: "90-Minuten-Schlafzyklus: Wie er mein Leben verändert hat"
 description: "Hast du jemals bemerkt, dass du dich manchmal völlig erfrischt und energiegeladen fühlst, wenn du aufwachst, während du an anderen Tagen das Gefühl hast, gerade"
 pubDate: "2024-09-03"
 category: "Gesundheit"

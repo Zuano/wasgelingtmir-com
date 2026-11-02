@@ -1,5 +1,6 @@
 ---
 title: "iOS 15 und macOS 12: So löschen Sie alle erledigten Erinnerungen auf einmal auf iPhone, iPad und Mac"
+seoTitle: "Erledigte Erinnerungen löschen: iPhone, iPad & Mac ab iOS 15"
 description: "In iOS 15 ist es einfacher, erledigte Erinnerungen zu löschen. In jeder Liste mit vielen Erinnerungen können Sie auf das neue Label \"Löschen\" tippen."
 pubDate: "2021-11-01"
 category: "Apple & Mac"
